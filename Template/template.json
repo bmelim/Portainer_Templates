@@ -3485,15 +3485,15 @@
     },
     {
       "categories": ["Other", "Social"],
-      "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ",
+      "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link.",
       "image": "ghcr.io/techno-tim/littlelink-server:latest",
       "logo": "https://littlelink.io/images/avatar@2x.png",
-      "name": "littlelink",
+      "name": "littlelink-server",
       "platform": "linux",
       "ports": ["8080:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Littlelink Server",
-      "type": 1,
+      "type": 1
     },	  
     {
       "categories": ["Other", "Downloaders"],
