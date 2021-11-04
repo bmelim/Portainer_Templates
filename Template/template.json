@@ -1149,7 +1149,7 @@
       "categories": ["Other", "Tools"],
       "description": "Dashy helps you organize your self-hosted services by making them accessible from a single place.",
       "image": "lissy93/dashy:latest",
-      "logo": "",
+      "logo": "https://dashy.to/img/dashy.png",
       "name": "dashy",
       "note": "This container requires a yml file within the config volume. See Deployment here https://github.com/Lissy93/dashy/blob/master/docs/deployment.md",
       "platform": "linux",
@@ -1161,7 +1161,7 @@
         {
           "bind": "/portainer/Files/AppData/Config/Dashy",
           "container": "/app/public/conf.yml"
-        },
+        }
       ]
     },
     {
