@@ -31,7 +31,7 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
-      04/11/2011:
+      04/11/2021:
   - Uptime-Kuma
   - Dashy
 <br></br>
