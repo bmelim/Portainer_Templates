@@ -3466,7 +3466,7 @@
 	{
           "label": "TZ",
           "name": "TZ"
-        },
+        }
       ],
       "image": "linuxserver/webtop:ubuntu-kde",
       "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
