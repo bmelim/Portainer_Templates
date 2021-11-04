@@ -1093,7 +1093,7 @@
       ]
     },
     {
-      "categories": ["Tools", "Web", "Other"],
+      "categories": ["Tools", "Web", "Dashboard"],
       "description": "Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.",
       "env": [
         {
