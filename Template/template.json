@@ -3490,7 +3490,7 @@
       "logo": "https://littlelink.io/images/avatar@2x.png",
       "name": "littlelink-server",
       "platform": "linux",
-      "ports": ["8080:3000/tcp"],
+      "ports": ["8480:3000/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Littlelink Server",
       "type": 1
