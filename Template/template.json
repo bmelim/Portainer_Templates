@@ -3484,19 +3484,6 @@
       ]
     },
     {
-      "categories": ["Other", "Social"],
-      "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ", 
-      "logo": "https://littlelink.io/images/avatar@2x.png",
-      "name": "littlelink",
-      "platform": "linux",
-      "repository" :{
-	"stackfile": "Template/Stack/littlelink.yml",
-	"url": "https://github.com/xneo1/portainer_templates"
-      },
-      "title": "Littlelink Server",
-      "type": 3,
-    },
-    {
       "categories": ["Other", "Downloaders"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
       "image": "tzahi12345/youtubedl-material:latest",
