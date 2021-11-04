@@ -34,7 +34,7 @@ All templates are already configured to bind mount to various places on your dri
       04/11/2011:
   - Uptime-Kuma
   - Dashy
-<br />
+<br>
   - Adguard 
   - Airsonic 
   - Authelia 
