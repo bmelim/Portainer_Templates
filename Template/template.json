@@ -3436,12 +3436,11 @@
       ]
     },
     {
-      "categories": ["Other", "Network"],
+      "categories": ["Other", "Tools"],
       "description": "It is a self-hosted monitoring tool like "Uptime Robot".",
       "image": "louislam/uptime-kuma:latest",
       "logo": "https://github.com/louislam/uptime-kuma/raw/master/public/icon.svg",
       "name": "uptime-kuma",
-      "note": "",
       "platform": "linux",
       "ports": ["3001:3001/tcp"],
       "restart_policy": "always",
