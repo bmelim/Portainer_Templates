@@ -1159,7 +1159,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Dashy/conf.yml",
+          "bind": "/portainer/Files/AppData/Config/Dashy",
           "container": "/app/public/conf.yml"
         },
         {
