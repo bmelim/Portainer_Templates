@@ -1124,7 +1124,7 @@
     },
     {
       "categories": ["Other", "Tools"],
-      "description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+      "description": "A dead simple static Homepage for your server to keep your services on hand, from a simple yaml configuration file.",
       "image": "b4bz/homer:latest",
       "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/homer.png",
       "name": "homer",
@@ -1147,14 +1147,14 @@
     },
     {
       "categories": ["Other", "Tools"],
-      "description": "Dashy helps you organize your self-hosted services by making them accessible from a single place.",
+      "description": "Helps you organize your self-hosted services by making them accessible from a single place.",
       "image": "lissy93/dashy:latest",
       "logo": "https://dashy.to/img/dashy.png",
       "name": "dashy",
-      "note": "This container requires a yml file within the config volume. See Deployment here https://github.com/Lissy93/dashy/blob/master/docs/deployment.md",
+      "note": "This container requires a yml file within the config volume.https://github.com/Lissy93/dashy/blob/master/public/conf.yml See Deployment here https://github.com/Lissy93/dashy/blob/master/docs/deployment.md",
       "platform": "linux",
       "ports": ["4000:80/tcp"],
-      "restart_policy": "always",
+      "restart_policy": "unless-stopped",
       "title": "Dashy",
       "type": 1,
       "volumes": [
