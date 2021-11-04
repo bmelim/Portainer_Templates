@@ -1,5 +1,5 @@
 ---
-version: "3.0"
+version: "2.0"
 services:
   littlelink-server:
     image: ghcr.io/techno-tim/littlelink-server:latest
