@@ -1150,7 +1150,7 @@
       "description": "Dashy helps you organize your self-hosted services by making them accessible from a single place.",
       "image": "lissy93/dashy:latest",
       "logo": "",
-      "name": "Dashy",
+      "name": "dashy",
       "note": "This container requires a yml file within the config volume. See Deployment here https://github.com/Lissy93/dashy/blob/master/docs/deployment.md",
       "platform": "linux",
       "ports": ["4000:80/tcp"],
