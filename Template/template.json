@@ -1145,7 +1145,7 @@
         }
       ]
     },
-     {
+<!--     {
       "categories": ["Other", "Tools"],
       "description": "Dashy helps you organize your self-hosted services by making them accessible from a single place.",
       "image": "lissy93/dashy:latest",
@@ -1163,7 +1163,7 @@
           "container": "/app/public/conf.yml"
         },
       ]
-    },
+    },-->
     {
       "categories": ["Other", "Tools"],
       "description": "Create agents that monitor and act on your behalf.",
