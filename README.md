@@ -34,6 +34,8 @@ All templates are already configured to bind mount to various places on your dri
       04/11/2021:
   - Uptime-Kuma
   - Dashy
+  - WebTop [ubuntu-kde]
+  - Linkfree by Techno Tim
 <br></br>
   - Adguard 
   - Airsonic 
