@@ -30,6 +30,10 @@ All templates are already configured to bind mount to various places on your dri
 * **Comics** - Where comics are stored/moved to after downloaded.
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
+## Update:
+      04/11/2011:
+  - Uptime-Kuma
+  - Dashy
 
   - Adguard 
   - Airsonic 
