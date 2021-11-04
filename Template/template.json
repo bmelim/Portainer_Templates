@@ -3450,6 +3450,39 @@
       ]
     },
     {
+      "categories": ["Other"],
+      "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
+	  "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+		{
+          "default": "1000",
+          "label": "PUID",
+          "name": "GUID"
+        },
+		{
+          "label": "TZ",
+          "name": "TZ"
+        },
+      "image": "linuxserver/webtop:ubuntu-kde",
+      "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
+      "name": "webtop",
+      "platform": "linux",
+      "ports": ["3000:3000/tcp"],
+      "restart_policy": "always",
+      "title": "Webtop",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/WebTop",
+          "container": "/config"
+        }
+      ]
+    },
+    {
       "categories": ["Other", "Downloaders"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
       "image": "tzahi12345/youtubedl-material:latest",
