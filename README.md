@@ -1,7 +1,7 @@
 
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
-This is a template focused on helping people spin up selfhosted services using Portainer.
+This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
 
 ### Prerequisites
 
