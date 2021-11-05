@@ -3468,6 +3468,18 @@
       ]
     },
     {
+      "categories": ["Social"],
+      "description": "",
+      "image": "netboxcommunity/netbox:latest",
+      "logo": "https://github.com/xneo1/portainer_templates/blob/master/Images/netbox.png",
+      "name": "netbox",
+      "platform": "linux",
+      "ports": ["8000:80/tcp"],
+      "restart_policy": "always",
+      "title": "Netbox",
+      "type": 1
+    },
+    {
       "categories": ["Network"],
       "description": "Self-hosted website change detection monitoring.",
       "image": "dgtlmoon/changedetection.io",
