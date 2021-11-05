@@ -158,6 +158,7 @@ If you wish to contribute make a pull request, create an issue, or email me.
 * **NASHosted** - *Current Work* - [NASHOSTED](https://github.com/nashosted)
 * **SelfhostedPro** - *Current Work* - [SelfhostedPro](https://github.com/SelfhostedPro)
 * **Jos Visser** - *Initial work* - [Qballjos](https://github.com/Qballjos)
+* **Vagelis Fragkos** - *This forked repo from Qballjos* - [xneo1](https://github.com/xneo1)
 * **xe-nvdk** - *template conversion to portainer V2* - [xe-nvdk](https://github.com/xe-nvdk)
 * **tbiering** - *Termplate cleanup and typo fixes* - [tbiering](https://github.com/tbiering)
 
