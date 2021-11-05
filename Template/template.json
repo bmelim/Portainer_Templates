@@ -3496,6 +3496,20 @@
       "ports": ["3000:3000/tcp"],    
       "title": "Littlelink Server",
       "type": 3
+    }, 
+    {
+      "categories": ["Other"],
+      "description": "Umami is a simple, easy to use, self-hosted web analytics solution. The goal is to provide you with a friendlier, privacy-focused alternative to Google Analytics and a free, open-sourced alternative to paid solutions", 
+      "logo": "https://icons.duckduckgo.com/ip3/umami.is.ico",
+      "name": "umami",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/umami.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "ports": ["3000:3000/tcp"],    
+      "title": "Umami.is",
+      "type": 3
     },  
     {
       "categories": ["Other", "Downloaders"],
