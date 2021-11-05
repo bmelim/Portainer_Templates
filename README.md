@@ -47,6 +47,7 @@ All templates are already configured to bind mount to various places on your dri
   - Monica
   - Netbox
   - Freeboard
+  - Nodered
 
 ## 
   - Adguard 
