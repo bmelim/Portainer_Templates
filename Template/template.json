@@ -3450,6 +3450,24 @@
       ]
     },
     {
+      "categories": ["Network"],
+      "description": "Self-hosted website change detection monitoring.",
+      "image": "dgtlmoon/changedetection.io",
+      "logo": "https://github.com/xneo1/portainer_templates/raw/master/Images/changedetection-custom.png",
+      "name": "changedetection",
+      "platform": "linux",
+      "ports": ["5066:80/tcp"],
+      "restart_policy": "always",
+      "title": "Change Detection",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/changedetection",
+          "container": "/datastore"
+        }
+      ]
+    },
+    {
       "categories": ["Other"],
       "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
       "env": [
