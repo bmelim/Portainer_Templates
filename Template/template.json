@@ -3572,7 +3572,7 @@
     {
       "categories": ["Dashboard"],
       "description": "This application will list all dockers that have a WebUI.",
-      "image": "olprog/unraid-docker-webui",
+      "image": "olprog/unraid-docker-webui:latest",
       "logo": "https://raw.githubusercontent.com/Olprog59/unraid-templates/main/docker-webui/docker-webui.png",
       "name": "dockerwebui",
       "platform": "linux",
