@@ -5,19 +5,19 @@ This is a template focused on helping people spin up selfhosted services using P
 
 ### Prerequisites
 
-1. A server/NAS with docker installed
-2. A Portainer setup.
+1. A server/NAS with docker installed.
+2. A Portainer-CE setup.
 
 *Want something we don't have? Make an issue and we'll work on adding it*
 
 ### Installing
 
-1. Login to your portainer setup go to settings
-2. Enable Use external templates
+1. Login to your Portainer setup go to settings
+2. Go to:  Application settings > App Templates
 3. Add the url: `https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json` then go to app templates and hit refresh at the top.
 
 ### Information
-All templates are already configured to bind mount to various places on your drive. This branch works without the need for OMV. The following folders are all created in /portainer/
+All templates are already configured to bind mount to various places on your drive. The following folders are all created in **/portainer/**
 
 * **Files** - General file storage.
   * **AppData** - Subfolder where application data (unrelated to served data) is stored.
@@ -31,13 +31,13 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
-      04/11/2021:
+04/11/2021:
   - Uptime-Kuma
   - Dashy
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
-   05/11/2021:
+05/11/2021:
   - Umami.is
   - Matomo
   - N.eko Rooms
