@@ -3481,10 +3481,13 @@
     },
     {
       "categories": ["Dashboard", "IoT"],
-      "description": "NetBox is an infrastructure resource modeling (IRM) application designed to empower network automation. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers.",
-      "image": "netboxcommunity/netbox:latest",
-      "logo": "https://github.com/xneo1/portainer_templates/raw/master/Images/netbox.svg",
-      "name": "netbox",
+      "description": "Freeboard is a turn-key HTML-based 'engine' for dashboards. Besides a nice looking layout engine, it provides a plugin architecture for creating datasources (which fetch data) and widgets (which display data)— freeboard then does all the work to connect the two together.",
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/freeboard.jpg",
+      "name": "freeboard",
+      "repository": {
+	    "stackfile": "Template/Stack/freeboard.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
       "platform": "linux",
       "ports": ["8000:80/tcp"],
       "restart_policy": "always",
