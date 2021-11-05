@@ -3497,12 +3497,12 @@
       "name": "littlelink",
       "platform": "linux",
       "repository": {
-	"stackfile": "Template/Stack/littlelink.yml",
-	"url": "https://github.com/xneo1/portainer_templates"
+	    "stackfile": "Template/Stack/littlelink.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
       },
       "ports": ["3000:3000/tcp"],    
       "title": "Littlelink Server",
-      "type": 3,
+      "type": 3
     },  
     {
       "categories": ["Other", "Downloaders"],
