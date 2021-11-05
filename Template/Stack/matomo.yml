@@ -21,8 +21,8 @@ services:
       - matomo:/var/www/html
     environment:
       - MATOMO_DATABASE_HOST=db
-    env_file:
-      - ./db.env
+    # env_file:
+    #   - ./db.env
     ports:
       - 8282:80 #changed from default 8080
 
