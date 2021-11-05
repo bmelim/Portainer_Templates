@@ -37,6 +37,9 @@ All templates are already configured to bind mount to various places on your dri
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
+   05/11/2021:
+  - Umami.is
+<br></br>
   - Adguard 
   - Airsonic 
   - Authelia 
