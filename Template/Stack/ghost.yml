@@ -12,7 +12,7 @@ services:
   ghost:
     image: docker.io/bitnami/ghost:latest
     ports:
-      - '80:2368'
+      - '2368:2368'
     volumes:
       - 'ghost_data:/bitnami/ghost'
     depends_on:
