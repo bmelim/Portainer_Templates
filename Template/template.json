@@ -3486,13 +3486,6 @@
     {
       "categories": ["Other", "Social"],
       "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ", 
-      "env": [
-        {
-          "default": "",
-          "label": "META_TITLE",
-          "name": "META_TITLE"
-        }
-      ],
       "logo": "https://littlelink.io/images/avatar@2x.png",
       "name": "littlelink-server",
       "platform": "linux",
