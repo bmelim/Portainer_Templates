@@ -3498,7 +3498,7 @@
       "type": 3
     }, 
     {
-      "categories": ["Other", "Analytics"],
+      "categories": ["Analytics"],
       "description": "Umami is a simple, easy to use, self-hosted web analytics solution. The goal is to provide you with a friendlier, privacy-focused alternative to Google Analytics and a free, open-sourced alternative to paid solutions", 
       "logo": "https://icons.duckduckgo.com/ip3/umami.is.ico",
       "name": "umami",
@@ -3510,7 +3510,21 @@
       "ports": ["3000:3000/tcp"],    
       "title": "Umami.is",
       "type": 3
-    },  
+    },
+    {
+      "categories": ["Analytics"],
+      "description": "Google Analytics alternative that protects your data and your customers' privacy", 
+      "logo": "https://gallery.ncnet.nl/upload/2020/05/22/20200522171613-9205fa32.png",
+      "name": "matomo",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/umami.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "ports": ["8282:80/tcp"],    
+      "title": "Matomo",
+      "type": 3
+    },    
     {
       "categories": ["Other", "Downloaders"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
