@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <br></br>
    05/11/2021:
   - Umami.is
+  - Matomo
 <br></br>
   - Adguard 
   - Airsonic 
