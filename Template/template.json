@@ -3498,7 +3498,7 @@
       "categories": ["Network"],
       "description": "Self-hosted website change detection monitoring.",
       "image": "dgtlmoon/changedetection.io",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/changedetection-custom.png",
       "name": "freeboard",
       "platform": "linux",
       "restart_policy": "always",
