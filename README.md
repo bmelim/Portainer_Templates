@@ -149,11 +149,6 @@ All templates are already configured to bind mount to various places on your dri
   - Youtubedl-material 
   - Znc 
 
-
-## Contributing
-
-If you wish to contribute make a pull request, create an issue, or email me.
-
 ## Authors
 * **NASHosted** - *Current Work* - [NASHOSTED](https://github.com/nashosted)
 * **SelfhostedPro** - *Current Work* - [SelfhostedPro](https://github.com/SelfhostedPro)
@@ -162,10 +157,4 @@ If you wish to contribute make a pull request, create an issue, or email me.
 * **xe-nvdk** - *template conversion to portainer V2* - [xe-nvdk](https://github.com/xe-nvdk)
 * **tbiering** - *Termplate cleanup and typo fixes* - [tbiering](https://github.com/tbiering)
 
-See also the list of [contributors](https://github.com/Qballjos/portainer_templates/graphs/contributors) who participated in this project.
-
-## Acknowledgments
-
-* LinuxServer.io for the old Template
-* Inspiration being too lazy to create each container template manualy
-* The team behind Portainer for there awesome product and support in the community
+See also the list of [contributors](https://github.com/xneo1/portainer_templates/graphs/contributors) who participated in this project.
