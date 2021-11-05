@@ -3524,6 +3524,19 @@
       "ports": ["8282:80/tcp"],    
       "title": "Matomo",
       "type": 3
+    },
+    {
+      "categories": ["Other"],
+      "description": "Simple room management system for n.eko. Self hosted rabb.it alternative.", 
+      "logo": "https://raw.githubusercontent.com/m1k1o/neko/master/docs/_media/logo.png",
+      "name": "neko",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/neko.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },   
+      "title": "Neko",
+      "type": 3
     },    
     {
       "categories": ["Other", "Downloaders"],
