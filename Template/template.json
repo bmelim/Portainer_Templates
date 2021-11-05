@@ -3471,7 +3471,7 @@
       "categories": ["Network"],
       "description": "NetBox is an infrastructure resource modeling (IRM) application designed to empower network automation. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers.",
       "image": "netboxcommunity/netbox:latest",
-      "logo": "https://github.com/xneo1/portainer_templates/raw/master/Images/netbox.svg",
+      "logo": "https://github.com/xneo1/portainer_templates/raw/master/Images/netbox_icon.svg",
       "name": "netbox",
       "platform": "linux",
       "ports": ["8000:80/tcp"],
