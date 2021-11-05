@@ -3466,7 +3466,7 @@
           "container": "/var/www/html/storage"
         }
       ]
-    }
+    },
     {
       "categories": ["Network"],
       "description": "Self-hosted website change detection monitoring.",
