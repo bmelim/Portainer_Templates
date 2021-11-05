@@ -3495,11 +3495,29 @@
       "type": 1
     },
     {
+      "categories": ["Dashboard", "IoT"],
+      "description": "Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette.",
+      "image": "nodered/node-red",
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/node-red-icon.svg",
+      "name": "nodered",
+      "platform": "linux",
+      "ports": ["1880:1880/tcp"],
+      "restart_policy": "always",
+      "title": "Nodered",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Nodered",
+          "container": "/data"
+        }
+      ]
+    },  
+    {
       "categories": ["Network"],
       "description": "Self-hosted website change detection monitoring.",
       "image": "dgtlmoon/changedetection.io",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/changedetection-custom.png",
-      "name": "freeboard",
+      "name": "changedetection",
       "platform": "linux",
       "restart_policy": "always",
       "title": "Change Detection",
