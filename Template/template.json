@@ -3616,7 +3616,20 @@
       "ports": ["3000:3000/tcp"],    
       "title": "Littlelink Server",
       "type": 3
-    }, 
+    },
+    {
+      "categories": ["Video", "Other"],
+      "description": "", 
+      "logo": "",
+      "name": "frigatenvr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/frigatenvr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },    
+      "title": "Frigate NVR",
+      "type": 3
+    },  
     {
       "categories": ["Analytics"],
       "description": "Umami is a simple, easy to use, self-hosted web analytics solution. The goal is to provide you with a friendlier, privacy-focused alternative to Google Analytics and a free, open-sourced alternative to paid solutions", 
