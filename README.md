@@ -46,6 +46,7 @@ All templates are already configured to bind mount to various places on your dri
   - Ghost
   - Monica
   - Netbox
+  - Freeboard
 
 ## 
   - Adguard 
