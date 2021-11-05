@@ -3518,7 +3518,7 @@
       "name": "matomo",
       "platform": "linux",
       "repository": {
-	    "stackfile": "Template/Stack/umami.yml",
+	    "stackfile": "Template/Stack/matomo.yml",
 	    "url": "https://github.com/xneo1/portainer_templates"
       },
       "ports": ["8282:80/tcp"],    
