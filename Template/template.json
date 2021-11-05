@@ -3616,6 +3616,19 @@
       ]
     },
     {
+      "categories": ["Other", "Messaging"],
+      "description": "Ferdi is a messaging browser that allows you to combine your favourite messaging services into one application", 
+      "logo": "https://raw.githubusercontent.com/getferdi/server/master/logo.png",
+      "name": "ferdi-server",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/ferdiserver.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },    
+      "title": "Ferdi Server",
+      "type": 3
+    },
+    {
       "categories": ["Other", "Social"],
       "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ", 
       "logo": "https://littlelink.io/images/avatar@2x.png",
