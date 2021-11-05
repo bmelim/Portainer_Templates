@@ -3530,6 +3530,28 @@
       ]
     },
     {
+      "categories": ["Presentation", "Other"],
+      "description": "It is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free | Production Mode",
+      "image": "cloudogu/reveal.js",
+      "logo": "https://pbs.twimg.com/profile_images/1260911777929400325/_ClbHpsz_400x400.jpg",
+      "name": "revealjs",
+      "platform": "linux",
+      "ports": ["6060:8080/tcp"],
+      "restart_policy": "always",
+      "title": "Reveal.js",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/revealjs/docs/slides",
+          "container": "/reveal/docs/slides"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/revealjs/scripts/test",
+          "container": "/resources"
+        }
+      ]
+    },
+    {
       "categories": ["Other"],
       "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
       "env": [
