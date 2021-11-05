@@ -43,6 +43,7 @@ All templates are already configured to bind mount to various places on your dri
   - Matomo
   - N.eko Rooms
   - Changedetection.io
+  - Ghost
 
 ## 
   - Adguard 
