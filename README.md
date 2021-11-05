@@ -50,6 +50,7 @@ All templates are already configured to bind mount to various places on your dri
   - Nodered
   - Reveal.js
   - Statping
+  - Frigate NVR
 
 ## 
   - Adguard 
