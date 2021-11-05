@@ -3559,7 +3559,7 @@
     {
       "categories": ["Other"],
       "description": "Create your own platform on the web. Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.", 
-      "logo": "https://user-images.githubusercontent.com/120485/43974508-b64b2fe8-9cd2-11e8-8e58-707254b8817c.png",
+      "logo": "https://ghost.org/images/docs/logos/ghost-logo-dark.png",
       "name": "ghost",
       "platform": "linux",
       "repository": {
