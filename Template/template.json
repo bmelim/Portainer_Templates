@@ -3555,7 +3555,20 @@
       },   
       "title": "Neko",
       "type": 3
-    },    
+    },
+    {
+      "categories": ["Other"],
+      "description": "", 
+      "logo": "https://user-images.githubusercontent.com/120485/43974508-b64b2fe8-9cd2-11e8-8e58-707254b8817c.png",
+      "name": "ghost",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/ghost.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },   
+      "title": "Ghost",
+      "type": 3
+    },   
     {
       "categories": ["Other", "Downloaders"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
