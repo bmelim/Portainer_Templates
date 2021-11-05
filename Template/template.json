@@ -3618,9 +3618,9 @@
       "type": 3
     },
     {
-      "categories": ["Video", "Other"],
-      "description": "", 
-      "logo": "",
+      "categories": ["Video", "Other" ,"AI"],
+      "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
+      "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
       "name": "frigatenvr",
       "platform": "linux",
       "repository": {
