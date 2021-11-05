@@ -3576,7 +3576,7 @@
       "logo": "https://raw.githubusercontent.com/Olprog59/unraid-templates/main/docker-webui/docker-webui.png",
       "name": "dockerwebui",
       "platform": "linux",
-      "ports": ["8888:80/tcp"],
+      "ports": ["8888:8080/tcp"],
       "restart_policy": "always",
       "title": "Docker Web-UI",
       "type": 1
