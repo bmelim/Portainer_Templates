@@ -31,13 +31,14 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
-04/11/2021:
+**04/11/2021:**
   - Uptime-Kuma
   - Dashy
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
-05/11/2021:
+
+**05/11/2021:**
   - Umami.is
   - Matomo
   - N.eko Rooms
