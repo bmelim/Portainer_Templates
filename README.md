@@ -40,6 +40,7 @@ All templates are already configured to bind mount to various places on your dri
    05/11/2021:
   - Umami.is
   - Matomo
+  - N.eko Rooms
 <br></br>
   - Adguard 
   - Airsonic 
