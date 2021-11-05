@@ -3552,6 +3552,24 @@
       ]
     },
     {
+      "categories": ["Network"],
+      "description": "An easy to use Status Page for your websites and applications. Statping will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page.",
+      "image": "statping/statping:latest",
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/statping.png",
+      "name": "statping",
+      "platform": "linux",
+      "ports": ["4040:4040/tcp"],
+      "restart_policy": "always",
+      "title": "Statping",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/statping",
+          "container": "/app"
+        }
+      ]
+    },
+    {
       "categories": ["Other"],
       "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
       "env": [
