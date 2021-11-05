@@ -3489,11 +3489,11 @@
       "logo": "https://littlelink.io/images/avatar@2x.png",
       "name": "littlelink",
       "platform": "linux",
-	  "repository" : {
-	    "stackfile": "Template/Stack/littlelink.yml",
-	    "url": "https://github.com/xneo1/portainer_templates"
+      "repository": {
+	"stackfile": "Template/Stack/littlelink.yml",
+	"url": "https://github.com/xneo1/portainer_templates"
       },
-	  "title": "Littlelink Server",
+      "title": "Littlelink Server",
       "type": 3,
     },  
     {
