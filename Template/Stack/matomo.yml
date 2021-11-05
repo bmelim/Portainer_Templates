@@ -8,7 +8,7 @@ services:
     volumes:
       - /portainer/Files/AppData/Config/mariadb/matomo:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ROOT_PASSWORD=enterYOURpwd
     # env_file:
     #  - ./db.env
 
