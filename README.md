@@ -32,7 +32,8 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 **08/11/2021:**
-  - 
+  - Aria2 Pro [Downloader]
+  - Apprise-API
 
 **05/11/2021:**
   - Umami.is
