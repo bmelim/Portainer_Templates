@@ -3643,6 +3643,19 @@
       "type": 3
     },
     {
+      "categories": ["Downloader"],
+      "description": "A perfect Aria2 Docker image. Out of the box, just add download tasks and don't need to think about anything else.", 
+      "logo": "https://imgcdn.p3terx.com/post/20201113041845.jpg",
+      "name": "aria2-pro",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/aria2pro.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Aria2 Pro",
+      "type": 3
+    },
+    {
       "categories": ["Video", "Other" ,"AI"],
       "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
       "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
