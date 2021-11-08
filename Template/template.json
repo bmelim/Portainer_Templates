@@ -3495,6 +3495,18 @@
       "type": 1
     },
     {
+      "categories": ["Dashboard", "Crypto"],
+      "description": "Cryptofolio is an open-source, and self-hosted solution for tracking your cryptocurrency holdings. It features a web interface, an Android mobile app, and a cross-platform desktop application for Windows, macOS, and Linux.",
+      "image": "xtrendence/cryptofolio:latest",
+      "logo": "https://i.imgur.com/5v8lzea.png",
+      "name": "cryptofolio",
+      "platform": "linux",
+      "ports": ["7280:80/tcp"],
+      "restart_policy": "always",
+      "title": "Cryptofolio",
+      "type": 1
+    },
+    {
       "categories": ["Dashboard", "IoT"],
       "description": "Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette.",
       "image": "nodered/node-red",
