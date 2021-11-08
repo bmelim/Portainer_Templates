@@ -3656,6 +3656,19 @@
       "type": 3
     },
     {
+      "categories": ["Other", "API"],
+      "description": "Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.70+ services", 
+      "logo": "https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png",
+      "name": "apprise-api",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/apprise.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Apprise-API",
+      "type": 3
+    },
+    {
       "categories": ["Video", "Other" ,"AI"],
       "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
       "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
