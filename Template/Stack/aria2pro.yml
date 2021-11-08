@@ -43,7 +43,6 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - RPC_SECRET=secret
       - ARIA2RPCPORT=6800
       - RPC_SECRET=P3TERX
     command: --port 6880 --ipv6
