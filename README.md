@@ -34,6 +34,7 @@ All templates are already configured to bind mount to various places on your dri
 **08/11/2021:**
   - Aria2 Pro [Downloader]
   - Apprise-API
+  - Cryptofolio
 
 **05/11/2021:**
   - Umami.is
