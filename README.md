@@ -31,12 +31,8 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
-**04/11/2021:**
-  - Uptime-Kuma
-  - Dashy
-  - WebTop [ubuntu-kde]
-  - Littlelink-server by Techno Tim
-<br></br>
+**08/11/2021:**
+  - 
 
 **05/11/2021:**
   - Umami.is
@@ -52,6 +48,15 @@ All templates are already configured to bind mount to various places on your dri
   - Statping
   - Frigate NVR
   - Ferdi
+
+**04/11/2021:**
+  - Uptime-Kuma
+  - Dashy
+  - WebTop [ubuntu-kde]
+  - Littlelink-server by Techno Tim
+<br></br>
+
+
 
 ## 
   - Adguard 
