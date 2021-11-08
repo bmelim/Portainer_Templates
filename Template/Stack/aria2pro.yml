@@ -41,6 +41,11 @@ services:
     container_name: ariang
     image: p3terx/ariang
     environment:
+      - PUID=1000
+      - PGID=1000
+      - RPC_SECRET=secret
+      - DOMAIN=0.0.0.0:8080
+      - ARIA2RPCPORT=6800
       - RPC_SECRET=P3TERX
     command: --port 6880 --ipv6
 #    network_mode: host
