@@ -221,11 +221,32 @@ Other:
   - Snippet Box
   - Neko
   - Ghost
+  - Muximux
 
-Photo:
+Photos:
   - Chevereto
+  - Emby
+  - Jellyfin
   - Lychee
+  - PhotoShow
+  - Piwigo
+  - Plex
 
+Presentation:
+  - Reveal.js
+
+Productivity:
+  - Codiad
+  - Duplicati
+  - Invoice Ninja
+  - Nextcloud
+  - Owncloud
+  - PrejectSend
+  - ProtonMail Bridge
+
+Proxy:
+  - Nginx
+  - Ngin Proxy Manager
 
   - Authelia
   - Adguard 
