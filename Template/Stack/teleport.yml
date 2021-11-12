@@ -14,6 +14,8 @@ services:
       - "3023:3023"
       - "3025:3025"
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/one/data/one:/var/lib/teleport
@@ -33,6 +35,8 @@ services:
     container_name: one-node
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/one-node.yaml
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
@@ -50,6 +54,8 @@ services:
     container_name: one-sshd
     command: /usr/bin/start-sshd.sh
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
@@ -72,6 +78,8 @@ services:
       - "4080:3080"
       - "4023:3023"
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/one-proxy:/var/lib/teleport
@@ -91,6 +99,8 @@ services:
     container_name: two-auth
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-auth.yaml --insecure
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/two/auth:/var/lib/teleport
@@ -108,6 +118,8 @@ services:
     container_name: two-proxy
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-proxy.yaml
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     ports:
       - "5080:5080"
@@ -128,6 +140,8 @@ services:
     container_name: two-node
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-node.yaml
     environment:
+      DEBUG: 1
+      CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/two-node/data:/var/lib/teleport
