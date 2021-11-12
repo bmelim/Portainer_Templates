@@ -2872,7 +2872,7 @@
       ]
     },
     {
-      "categories": ["Management"],
+      "categories": ["Management" , "Network"],
       "description": "SmokePing is a latency logging and graphing and alerting system. It consists of a daemon process which organizes the latency measurements and a CGI which presents the graphs.",
       "env": [
         {
@@ -3628,7 +3628,7 @@
       ]
     },
     {
-      "categories": ["Other", "Messaging"],
+      "categories": ["Other", "Messenger"],
       "description": "Ferdi is a messaging browser that allows you to combine your favourite messaging services into one application", 
       "logo": "https://raw.githubusercontent.com/getferdi/server/master/logo.png",
       "name": "ferdi-server",
