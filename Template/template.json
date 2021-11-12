@@ -3682,7 +3682,7 @@
     },
     {
       "categories": ["Photos", "AI"],
-      "description": "PhotoPrism® is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way.| Add as Custom stack and EDIT environment variables", 
+      "description": "PhotoPrism® is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way.| <span style={{fontWeight: "bold"}}>{Copy as Custom stack and EDIT environment variables}</span>", 
       "logo": "https://photoprism.app/static/img/logo.svg",
       "name": "photoprism",
       "platform": "linux",
