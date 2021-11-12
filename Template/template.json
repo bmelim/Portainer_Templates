@@ -2,7 +2,7 @@
   "version": "2",
   "templates": [
     {
-      "categories": ["Other"],
+      "categories": ["Adblocking"],
       "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network.",
       "env": [
         {
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Authentication"],
+      "categories": ["Tools", "Authentication"],
       "description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
       "env": [
         {
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.",
       "image": "vaultwarden/server:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/bitwarden.png",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "categories": ["Books", "Other"],
+      "categories": ["Books"],
       "description": "Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.",
       "env": [
         {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Photo"],
+      "categories": ["Tools", "Photo"],
       "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version.",
       "env": [
         {
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "ave recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.",
       "image": "gregyankovoy/chowdown:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/chowdown.png",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Code-server is VS Code running on a remote server, accessible through the browser.",
       "env": [
         {
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Dashboard"],
+      "categories": ["Tools", "Dashboard"],
       "description": "Another application bookmark , with fun features.",
       "image": "rmountjoy/dashmachine:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/dashmachine_logo.png",
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "categories": ["FTP", "Other", "Tools"],
+      "categories": ["FTP", "Tools"],
       "description": "davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.",
       "env": [
         {
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "categories": ["Other", "Music"],
+      "categories": ["Music"],
       "description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
       "image": "registry.gitlab.com/bockiii/deemix-docker",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/deemix.png",
@@ -782,7 +782,7 @@
       "type": 1
     },
     {
-      "categories": ["Backup", "Cloud", "Other", "Productivity", "Tools"],
+      "categories": ["Backup", "Cloud", "Productivity", "Tools"],
       "description": "Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.",
       "env": [
         {
@@ -863,7 +863,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
       "image": "linuxserver/embystat:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/embystat.png",
@@ -882,7 +882,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Web File Browser which can be used as a middleware or standalone app.",
       "image": "80x86/filebrowser:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/filebrowser.png",
@@ -972,7 +972,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A clientless remote desktop gateway.",
       "image": "oznu/guacamole:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/guacamole.png",
@@ -991,7 +991,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Finance"],
+      "categories": ["Tools", "Finance"],
       "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.",
       "env": [
         {
@@ -1025,7 +1025,7 @@
       ]
     },
     {
-      "categories": ["Video", "Music", "Other"],
+      "categories": ["Video", "Music"],
       "description": "HTPC Manager, a front end for many htpc related applications. Uses the Hellowlol HTPC Manager fork.",
       "env": [
         {
@@ -1123,7 +1123,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools" , "Dashboard"],
+      "categories": ["Tools" , "Dashboard"],
       "description": "A dead simple static Homepage for your server to keep your services on hand, from a simple yaml configuration file.",
       "image": "b4bz/homer:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/homer.png",
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Dashboard"],
+      "categories": ["Tools", "Dashboard"],
       "description": "Helps you organize your self-hosted services by making them accessible from a single place.",
       "image": "lissy93/dashy:latest",
       "logo": "https://dashy.to/img/dashy.png",
@@ -1165,7 +1165,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Create agents that monitor and act on your behalf.",
       "image": "huginn/huginn:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/huginn.png",
@@ -1183,7 +1183,7 @@
       ]
     },
     {
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
+      "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "Invoices, Expenses and Tasks built with Laravel and Flutter.",
       "env": [
         {
@@ -1431,7 +1431,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools", "Network"],
       "description": "A Free and Open Source Speedtest for HTML5 and more.",
       "image": "linuxserver/librespeed:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/speedtest.png",
@@ -1521,7 +1521,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "An Enhanced drop in replacement for Mysql.",
       "env": [
         {
@@ -1652,7 +1652,7 @@
       ]
     },
     {
-      "categories": ["Video", "Other", "Tools"],
+      "categories": ["Video", "Tools"],
       "description": "Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards. The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids.",
       "env": [
         {
@@ -1676,7 +1676,7 @@
       "type": 1
     },
     {
-      "categories": ["Other", "Music"],
+      "categories": ["Music"],
       "description": "Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.",
       "image": "linuxserver/mstream:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/mstream.png",
@@ -1698,7 +1698,7 @@
       ]
     },
     {
-      "categories": ["Other", "Voice", "Chat"],
+      "categories": ["Voice", "Chat"],
       "description": "Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble.",
       "env": [
         {
@@ -1744,7 +1744,7 @@
       ]
     },
     {
-      "categories": ["Music", "Other", "Tools"],
+      "categories": ["Music", "Tools"],
       "description": "MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.",
       "env": [
         {
@@ -1783,7 +1783,7 @@
       ]
     },
     {
-      "categories": ["Web", "Proxy", "Other", "Tools"],
+      "categories": ["Web", "Proxy", "Tools"],
       "description": "A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.",
       "env": [
         {
@@ -1885,7 +1885,7 @@
       ]
     },
     {
-      "categories": ["Downloaders", "Other", "Tools"],
+      "categories": ["Downloaders", "Tools"],
       "description": "NZBHydra is a meta search for NZB indexers and the \"spiritual successor\" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.",
       "env": [
         {
@@ -1919,7 +1919,7 @@
       ]
     },
     {
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
+      "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices.",
       "env": [
         {
@@ -2050,7 +2050,7 @@
       ]
     },
     {
-      "categories": ["Downloaders", "Other", "Video", "Tools"],
+      "categories": ["Downloaders", "Video", "Tools"],
       "description": "Ombi allows you to host your own Plex Request and user management system.",
       "env": [
         {
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "categories": ["Other"],
+      "categories": ["Network"],
       "description": "OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.",
       "env": [
         {
@@ -2115,7 +2115,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.",
       "env": [
         {
@@ -2145,7 +2145,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Overseerr is a free and open source software application for managing requests for your media library.",
       "env": [
         {
@@ -2175,7 +2175,7 @@
       ]
     },
     {
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
+      "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "ownCloud is a self-hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view, sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage.",
       "env": [
         {
@@ -2225,7 +2225,7 @@
       "type": 3
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content.",
       "env": [
         {
@@ -2296,7 +2296,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
       "image": "pihole/pihole:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/pihole.png",
@@ -2398,7 +2398,7 @@
       ]
     },
     {
-      "categories": ["Downloaders", "Other", "Video", "Tools"],
+      "categories": ["Downloaders", "Video", "Tools"],
       "description": "Simple automated way for users to request new content for Plex.",
       "env": [
         {
@@ -2433,7 +2433,7 @@
       ]
     },
     {
-      "categories": ["Cloud", "Productivity", "Tools", "Other"],
+      "categories": ["Cloud", "Productivity", "Tools"],
       "description": "ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files.",
       "env": [
         {
@@ -2467,7 +2467,7 @@
       ]
     },
     {
-      "categories": ["Email", "Productivity", "Tools", "Other"],
+      "categories": ["Email", "Productivity", "Tools"],
       "description": "This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.",
       "image": "shenxn/protonmail-bridge:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/protonmail-bridge.png",
@@ -2516,7 +2516,7 @@
       ]
     },
     {
-      "categories": ["Cloud", "Other"],
+      "categories": ["Cloud"],
       "description": "Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.",
       "env": [
         {
@@ -2652,7 +2652,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever.",
       "image": "amruthpillai/reactive-resume:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/reactiveresume.png",
@@ -2670,7 +2670,7 @@
       ]
     },
     {
-      "categories": ["Backup", "Cloud", "Other", "Tools"],
+      "categories": ["Backup", "Cloud", "Tools"],
       "description": "Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.",
       "env": [
         {
@@ -2778,7 +2778,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
       "image": "radhifadlillah/shiori:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/shiori-icon.png",
@@ -2906,7 +2906,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Self-hosted snippet manager.",
       "image": "snowmean/snibox-sqlite:latest",
       "logo": "https://raw.githubusercontent.com/xneo/portainer_templates/master/Images/snibox.png",
@@ -2967,7 +2967,7 @@
       ]
     },
     {
-      "categories": ["Backup", "Cloud", "Other", "Tools"],
+      "categories": ["Backup", "Cloud", "Tools"],
       "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.",
       "env": [
         {
@@ -3000,7 +3000,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.",
       "env": [
         {
@@ -3065,7 +3065,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A unique, non-linear notebook wiki.",
       "image": "mazzolino/tiddlywiki:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tiddlywiki.png",
@@ -3150,7 +3150,7 @@
       ]
     },
     {
-      "categories": ["Other", "VPN", "Tools"],
+      "categories": ["VPN", "Tools"],
       "description": "This container contains OpenVPN and Transmission with a configuration where Transmission is running only when OpenVPN has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier.",
       "env": [
         {
@@ -3318,7 +3318,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Maintenance"],
+      "categories": ["Tools", "Maintenance"],
       "description": "With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.",
       "image": "containrrr/watchtower:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/watchtower.png",
@@ -3370,7 +3370,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine.",
       "image": "benbusby/whoogle-search:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/whoogle.png",
@@ -3388,7 +3388,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
       "image": "linuxserver/wikijs:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/wikijs.png",
@@ -3410,7 +3410,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for.",
       "image": "selfhostedpro/yacht:latest",
       "logo": "https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png",
@@ -3432,7 +3432,7 @@
       ]
     },
     {
-      "categories": ["Other", "Tools", "Network"],
+      "categories": ["Tools", "Network"],
       "description": "It is a self-hosted monitoring tool like Uptime Robot",
       "image": "louislam/uptime-kuma:latest",
       "logo": "https://images.opencollective.com/uptime-kuma/29c5113/logo/256.png",
@@ -3542,7 +3542,7 @@
       ]
     },
     {
-      "categories": ["Presentation", "Other"],
+      "categories": ["Presentation"],
       "description": "It is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free | Production Mode",
       "image": "cloudogu/reveal.js",
       "logo": "https://pbs.twimg.com/profile_images/1260911777929400325/_ClbHpsz_400x400.jpg",
@@ -3628,7 +3628,7 @@
       ]
     },
     {
-      "categories": ["Other", "Messenger"],
+      "categories": ["Messenger"],
       "description": "Ferdi is a messaging browser that allows you to combine your favourite messaging services into one application", 
       "logo": "https://raw.githubusercontent.com/getferdi/server/master/logo.png",
       "name": "ferdi-server",
@@ -3654,7 +3654,7 @@
       "type": 3
     },
     {
-      "categories": ["Other", "Social"],
+      "categories": ["Social"],
       "description": "LittleLink is an open source DIY self-hosted alternative to services like Linktree and many.link. ", 
       "logo": "https://littlelink.io/images/avatar@2x.png",
       "name": "littlelink-server",
@@ -3681,7 +3681,7 @@
       "type": 3
     },
     {
-      "categories": ["Other", "API"],
+      "categories": ["API"],
       "description": "Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.70+ services", 
       "logo": "https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png",
       "name": "apprise-api",
@@ -3694,7 +3694,7 @@
       "type": 3
     },
     {
-      "categories": ["Video", "Other" ,"AI"],
+      "categories": ["Video", "AI"],
       "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
       "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
       "name": "frigatenvr",
@@ -3761,7 +3761,7 @@
       "type": 3
     },   
     {
-      "categories": ["Other", "Downloaders"],
+      "categories": ["Downloaders"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
       "image": "tzahi12345/youtubedl-material:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/ytdlm.png",
