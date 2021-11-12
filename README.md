@@ -248,110 +248,86 @@ Proxy:
   - Nginx
   - Ngin Proxy Manager
 
+Social:
+  - Monica
+  - Littlelink Server
+
+Tools:
   - Authelia
-  - Adguard 
-  - Airsonic 
-  - Authelia 
-  - Bazarr 
-  - Beets 
-  - Vaultwarden 
-  - Booksonic 
-  - Cops 
-  - Calibre-web 
-  - Chevereto 
-  - Chowdown 
-  - Code-server 
-  - Codiad 
-  - Couchpotato 
-  - Daapd 
-  - Dashmachine 
-  - Davos 
-  - Deemix 
-  - Domoticz 
-  - Duckdns 
-  - Duplicati 
-  - Emby 
-  - EmbyStat 
-  - Filebrowser 
-  - Freshrss 
-  - Gazee 
-  - Guacamole 
-  - Grocy 
-  - Htpcmanager 
-  - Headphones 
-  - Heimdall 
-  - Homer 
-  - Huginn 
-  - Invoice_ninja 
-  - Jackett 
-  - Jellyfin 
-  - kodi-headless 
-  - Lazylibrarian 
-  - Letsencrypt / SWAG 
-  - Librespeed 
-  - Lidarr 
-  - Lychee
-  - Mariadb 
-  - Mcmyadmin2 
-  - Medusa 
-  - Minetest 
-  - Minisatip 
-  - Mstream 
-  - Murmur 
-  - Musicbrainz 
-  - Muximux 
-  - Mylar 
-  - Nzbget 
-  - Nzbhydra2 
-  - Nextcloud 
-  - Nginx 
-  - Nginx-proxy-manager 
-  - Oscam 
-  - Ombi 
-  - Openvpn-as 
-  - Organizr-v2 
-  - Overseerr 
-  - Owncloud 
-  - Petio 
-  - Photoshow 
-  - Pihole 
-  - Piwigo 
-  - Plex 
-  - Plexrequests 
-  - Projectsend 
-  - Protonmail-bridge 
-  - Prowlarr 
-  - Pydio 
-  - Qbittorrent 
-  - Quassel-core 
-  - Radarr 
-  - Reactive-resume 
-  - Resilio-sync 
-  - Rutorrent 
-  - Sabnzbd 
-  - Shiori 
-  - Sickchill 
-  - Sickgear 
-  - Smokeping 
-  - Snibox 
-  - Sonarr 
-  - Syncthing 
-  - Tautulli 
-  - Thelounge 
-  - Tiddlywiki 
-  - Tt-rss 
-  - Transmission 
-  - Transmission-openvpn 
-  - Tvheadend 
-  - Ubooquity 
-  - Unifi-controller 
-  - Watchtower 
-  - Webgrabplus 
-  - Whoogle 
-  - Wikijs 
-  - Yacht 
-  - Youtubedl-material 
-  - Znc 
+  - Vaultwarden
+  - Chevereto
+  - Chowdown
+  - Code Server
+  - Dashmachine
+  - Davos
+  - Duck DNS
+  - Duplicati
+  - EmbyStat
+  - FileBrowser
+  - Gazee
+  - Guacamole
+  - Grocy
+  - Heimdall
+  - Homer
+  - Dashy
+  - Huginn
+  - Invoice Ninja
+  - Jackett
+  - Let's Encrypt/ SWAG
+  - LibreSpeed
+  - MariaDB
+  - Minisatip
+  - MusicBrainz
+  - Muximux
+  - NZBHydra 2
+  - NExtcloud
+  - Nginx Proxy Manager
+  - Ombi
+  - Organizr
+  - Overseerr
+  - Owncloud
+  - Petio
+  - Pi-Hole
+  - Plex Requests
+  - ProjectSend
+  - ProtonMail Bridge
+  - Reactive-Resume
+  - Resilio Sync
+  - Shiori
+  - Snibox
+  - SyncThing
+  - Tautulli
+  - TiddlyWiki
+  - Transmission-OpenVPN
+  - Unifi Controller
+  - Watchtower
+  - Whoogle
+  - Wikijs
+  - Yacht
+  - Uptime Kuma
+
+VPN:
+  - Transmission-OpenVPN
+
+Video:
+  - Bazarr
+  - CouchPotato
+  - Emby
+  - HTPC Manager
+  - Jellyfin
+  - Kodi Headless
+  - Medusa
+  - Minisatip
+  - Ombi
+  - Plex
+  - Plex Requests
+  - Prowlarr
+  - Radarr
+  - SickHill
+  - SickGear
+  - Sonarr
+  - Tvheadend
+  - Frigate NVR
 
 ## Authors
 * **NASHosted** - *Current Work* - [NASHOSTED](https://github.com/nashosted)
