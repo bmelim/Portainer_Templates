@@ -145,6 +145,15 @@ Downloaders:
   - WebGrab+Plus
   - YouTubeDL-Material
  
+Email:
+  - ProtonMail Bridge
+
+FTP:
+  - Davos
+
+Finance:
+  - Cryptofolio
+  - Grocy
 
 
   - Authelia
