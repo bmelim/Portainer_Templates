@@ -3681,6 +3681,19 @@
       "type": 3
     },
     {
+      "categories": ["Photos", "AI"],
+      "description": "PhotoPrism® is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way.| Add as Custom stack and EDIT environment variables", 
+      "logo": "https://photoprism.app/static/img/logo.svg",
+      "name": "photoprism",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/photoprism.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Photoprism",
+      "type": 3
+    },
+    {
       "categories": ["API"],
       "description": "Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.70+ services", 
       "logo": "https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png",
