@@ -64,6 +64,90 @@ All templates are already configured to bind mount to various places on your dri
 
 
 ## 
+Other:
+  - Apprise-API
+  
+Analytics: 
+  - Umami.js
+  - Matomo
+
+Authentication: 
+  - Authelia
+ 
+Backup: 
+  - Duplicati
+  - Resilio Sync
+  - Sync Thing
+
+Books:
+  - Booksonic
+  - COPS
+  - Calibre Web
+  - Gazee
+  - Lazy Librarian
+  - Mylar
+  - Ubooquity
+
+Chat:
+  - Murmur
+
+Cloud:
+  - COPS
+  - Calibre Web
+  - Duplicati
+  - Invoice Ninja
+  - Lychee
+  - Nextcloud
+  - Owncloud
+  - ProjectSend
+  - Pydio
+  - Resilio Sync
+  - SyncThing
+  - Ubooquity
+
+Crypto:
+  - Cryptofolio
+
+DNS:
+  - Duck DNS
+
+Dashboard:
+  - DashMachine
+  - Heimdall
+  - Homer
+  - Dashy
+  - Freeboard
+  - Cryptofolio
+  - Nodered
+  - Docker Web-UI
+
+Downloaders:
+  - Aria2 Pro
+  - CouchPotato
+  - Deluge
+  - Jackett
+  - Lidarr
+  - Medusa
+  - Mylar
+  - NZBGet
+  - NZBHydra 2
+  - Ombi
+  - Plex Requests
+  - Prowlarr
+  - qBittorent
+  - Radarr
+  - ruTorrent
+  - SABnzbd
+  - SickHill
+  - SickGear
+  - Sonarr
+  - Transwmission
+  - WebGrab+Plus
+  - YouTubeDL-Material
+ 
+
+
+  - Authelia
   - Adguard 
   - Airsonic 
   - Authelia 
