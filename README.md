@@ -65,6 +65,15 @@ All templates are already configured to bind mount to various places on your dri
 
 ## 
 Other:
+  - Adguard
+  - Authelia
+  - Vaultwarden
+  - Booksonic
+  - Chevereto
+  - Chowdown
+  - Code-Server
+  - Dashmachine
+  - Davos
   - Apprise-API
   
 Analytics: 
