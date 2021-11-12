@@ -3,7 +3,7 @@
   "templates": [
     {
       "categories": ["Adblocking"],
-      "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network.",
+      "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your wnetwork.",
       "env": [
         {
           "default": "1000",
@@ -2296,7 +2296,7 @@
       ]
     },
     {
-      "categories": ["Tools"],
+      "categories": ["Tools", "Adblocking"],
       "description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
       "image": "pihole/pihole:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/pihole.png",
