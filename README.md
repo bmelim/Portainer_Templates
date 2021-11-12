@@ -209,7 +209,24 @@ Network:
   - Netbox
   - Change Detection
   - Statping
-  
+ 
+Other:
+  - FreshRSS
+  - McMyAdmin 2
+  - Minetest
+  - OScam
+  - Tiny Tiny RSS
+  - Tvheadend
+  - Webtop
+  - Snippet Box
+  - Neko
+  - Ghost
+
+Photo:
+  - Chevereto
+  - Lychee
+
+
   - Authelia
   - Adguard 
   - Airsonic 
