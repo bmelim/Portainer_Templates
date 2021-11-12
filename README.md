@@ -34,6 +34,7 @@ All templates are already configured to bind mount to various places on your dri
 **12/11/2021:**
   - Snippet Box
   - Photoprism
+  - Teleport
 
 **08/11/2021:**
   - Aria2 Pro [Downloader]
@@ -316,6 +317,7 @@ Tools:
   - Wikijs
   - Yacht
   - Uptime Kuma
+  - Teleport
 
 VPN:
   - Transmission-OpenVPN
