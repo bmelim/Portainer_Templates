@@ -155,7 +155,52 @@ Finance:
   - Cryptofolio
   - Grocy
 
+HomeAutomation:
+  - Domoticz
 
+IoT:
+  - Freeboard
+  - Nodered
+
+Maintenance:
+  - Watchtower
+
+Management:
+  - Domoticz
+  - Lychee
+  - Smokeping
+  - Unifi Controller
+
+Messaging:
+  
+
+Messenger:
+  - Ferdi Server
+  - Quassel IRC
+  - TheLounge
+  - ZNC
+ 
+Music:
+  - Airsonic
+  - Bazarr
+  - Beets
+  - Daapd
+  - DeeMix
+  - Emby
+  - HTPC Manager
+  - Headphones
+  - Jellyfin
+  - Lidarr
+  - Mstream
+  - MusicBrainz
+  - Plex
+ 
+Network:
+  - Uptime Kuma
+  - Netbox
+  - Change Detection
+  - Statping
+  
   - Authelia
   - Adguard 
   - Airsonic 
