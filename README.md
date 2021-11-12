@@ -33,6 +33,7 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 **12/11/2021:**
   - Snippet Box
+  - Photoprism
 
 **08/11/2021:**
   - Aria2 Pro [Downloader]
@@ -75,7 +76,10 @@ Other:
   - Dashmachine
   - Davos
   - Apprise-API
-  
+
+AI:
+  - Photoprism
+  - Frigate NVR
 Analytics: 
   - Umami.js
   - Matomo
