@@ -80,6 +80,13 @@ Other:
 AI:
   - Photoprism
   - Frigate NVR
+
+API:
+  - Apprise-API
+
+Adblocking:
+  - Adguard
+  - Pi-Hole
 Analytics: 
   - Umami.js
   - Matomo
