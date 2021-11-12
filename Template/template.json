@@ -3668,7 +3668,7 @@
       "type": 3
     },
     {
-      "categories": ["Downloader"],
+      "categories": ["Downloaders"],
       "description": "A perfect Aria2 Docker image. Out of the box, just add download tasks and don't need to think about anything else.", 
       "logo": "https://imgcdn.p3terx.com/post/20201113041845.jpg",
       "name": "aria2-pro",
