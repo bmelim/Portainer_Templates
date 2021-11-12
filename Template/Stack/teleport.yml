@@ -6,7 +6,7 @@ services:
   one:
     image: teleport:latest
     container_name: one
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/one.yaml
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/one.yaml
     mem_limit: 300m
     memswap_limit: 0
     ports:
@@ -33,7 +33,7 @@ services:
   one-node:
     image: teleport:latest
     container_name: one-node
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/one-node.yaml
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/one-node.yaml
     environment:
       DEBUG: 1
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
@@ -72,7 +72,7 @@ services:
   one-proxy:
     image: teleport:latest
     container_name: one-proxy
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/one-proxy.yaml
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/one-proxy.yaml
     mem_limit: 300m
     ports:
       - "4080:3080"
@@ -97,7 +97,7 @@ services:
     mem_limit: 300m
     image: teleport:latest
     container_name: two-auth
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-auth.yaml --insecure
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/two-auth.yaml --insecure
     environment:
       DEBUG: 1
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
@@ -116,7 +116,7 @@ services:
     mem_limit: 300m
     image: teleport:latest
     container_name: two-proxy
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-proxy.yaml
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/two-proxy.yaml
     environment:
       DEBUG: 1
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
@@ -138,7 +138,7 @@ services:
     mem_limit: 300m
     image: teleport:latest
     container_name: two-node
-    command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-node.yaml
+    command: ${CONTAINERHOME}/build/teleport start -d -c ${CONTAINERHOME}/docker/two-node.yaml
     environment:
       DEBUG: 1
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
