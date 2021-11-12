@@ -13,7 +13,8 @@ services:
       - "3080:3080"
       - "3023:3023"
       - "3025:3025"
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/one/data/one:/var/lib/teleport
       - /portainer/Files/AppData/Config/teleport/one:/root/go/src/github.com/gravitational/teleport
@@ -31,7 +32,8 @@ services:
     image: teleport:latest
     container_name: one-node
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/one-node.yaml
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
       - /portainer/Files/AppData/teleport/one-node/data/one-node:/var/lib/teleport
@@ -47,7 +49,8 @@ services:
     image: teleport:latest
     container_name: one-sshd
     command: /usr/bin/start-sshd.sh
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
       - /portainer/Files/AppData/teleport/one-sshd/pam.d/ssh:/etc/pam.d/ssh
@@ -68,7 +71,8 @@ services:
     ports:
       - "4080:3080"
       - "4023:3023"
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/one-proxy:/var/lib/teleport
       - /portainer/Files/AppData/Config/teleport/one-proxy:/root/go/src/github.com/gravitational/teleport
@@ -86,7 +90,8 @@ services:
     image: teleport:latest
     container_name: two-auth
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-auth.yaml --insecure
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/two/auth:/var/lib/teleport
       - /portainer/Files/AppData/Config/teleport/two:/root/go/src/github.com/gravitational/teleport
@@ -102,7 +107,8 @@ services:
     image: teleport:latest
     container_name: two-proxy
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-proxy.yaml
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     ports:
       - "5080:5080"
       - "5023:5023"
@@ -121,7 +127,8 @@ services:
     image: teleport:latest
     container_name: two-node
     command: ${/root/go/src/github.com/gravitational/teleport}/build/teleport start -d -c ${/root/go/src/github.com/gravitational/teleport}/docker/two-node.yaml
-    env_file: ./teleportenv.file
+    environment:
+    #env_file: ./teleportenv.file
     volumes:
       - /portainer/Files/AppData/teleport/two-node/data:/var/lib/teleport
       - /portainer/Files/AppData/Config/teleport/two-node:/root/go/src/github.com/gravitational/teleport
