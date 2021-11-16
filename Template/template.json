@@ -1165,6 +1165,24 @@
       ]
     },
     {
+      "categories": ["Tools", "Dashboard"],
+      "description": "Flame is self-hosted startpage for your server. Its design is inspired (heavily) by SUI. Flame is very easy to setup and use. With built-in editors, it allows you to setup your very own application hub in no time - no file editing necessary.",
+      "image": "pawelmalak/flame",
+      "logo": "",
+      "name": "flame-dashboard",
+      "platform": "linux",
+      "ports": ["5005:5005/tcp"],
+      "restart_policy": "unless-stopped",
+      "title": "Flame-Dashboard",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/flame-dashboard",
+          "container": "/app/data"
+        }
+      ]
+    },	  
+    {
       "categories": ["Tools"],
       "description": "Create agents that monitor and act on your behalf.",
       "image": "huginn/huginn:latest",
