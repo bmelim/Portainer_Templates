@@ -31,6 +31,9 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
+
+**16/11/2021:**
+  - Flame Dashboard
 **12/11/2021:**
   - Snippet Box
   - Photoprism
@@ -141,6 +144,7 @@ Dashboard:
   - Cryptofolio
   - Nodered
   - Docker Web-UI
+  - Flame Dashboard
 
 Downloaders:
   - Aria2 Pro
