@@ -3468,6 +3468,24 @@
       ]
     },
     {
+      "categories": ["Tools"],
+      "description": "Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.",
+      "image": "amir20/dozzle:latest",
+      "logo": "https://dozzle.dev/favicon.ico",
+      "name": "dozzle",
+      "platform": "linux",
+      "ports": ["8888:8080/tcp"],
+      "restart_policy": "always",
+      "title": "Dozzle",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/var/run/docker.sock",
+          "container": "/var/run/docker.sock"
+        }
+      ]
+    },
+    {
       "categories": ["Social"],
       "description": "Monica is a great open source personal relationship management system to organize the interactions with your loved ones.",
       "image": "monica",
