@@ -32,6 +32,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**06/12/2021**
+  - Dozzle
+
 **16/11/2021:**
   - Flame Dashboard
 **12/11/2021:**
@@ -322,6 +325,7 @@ Tools:
   - Yacht
   - Uptime Kuma
   - Teleport
+  - Dozzle
 
 VPN:
   - Transmission-OpenVPN
