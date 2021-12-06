@@ -37,6 +37,7 @@ All templates are already configured to bind mount to various places on your dri
 
 **16/11/2021:**
   - Flame Dashboard
+  
 **12/11/2021:**
   - Snippet Box
   - Photoprism
