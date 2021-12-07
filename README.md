@@ -34,6 +34,7 @@ All templates are already configured to bind mount to various places on your dri
 
 **07/12/2021**
   - Broadlink Manager
+  - Homebridge
   
 **06/12/2021**
   - Dozzle
@@ -88,6 +89,10 @@ Other:
   - Davos
   - Apprise-API
 
+Smart Home:
+  - Broadlink Manager
+  - Homebridge
+  
 AI:
   - Photoprism
   - Frigate NVR
