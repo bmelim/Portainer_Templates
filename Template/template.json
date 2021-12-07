@@ -3771,7 +3771,7 @@
     },
     {
       "categories": ["Smart Home"],
-      "description": "", 
+      "description": "HomeKit support for the impatient.", 
       "logo": "https://raw.githubusercontent.com/homebridge/branding/master/logos/homebridge-color-round-stylized.png",
       "name": "homebridge",
       "platform": "linux",
