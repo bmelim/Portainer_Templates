@@ -3632,6 +3632,24 @@
       ]
     },
     {
+      "categories": ["Network"],
+      "description": "Network UPS Tools server",   
+      "image": "upshift/nut-upsd",
+      "logo": "",
+      "name": "nuts",
+      "platform": "linux",
+      "ports": ["3493:3493/tcp"],
+      "restart_policy": "always",
+      "title": "NUTS",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/nuts",
+          "container": "/app"
+        }
+      ]
+    },
+    {
       "categories": ["Dashboard"],
       "description": "This application will list all dockers that have a WebUI.",
       "image": "olprog/unraid-docker-webui:latest",
