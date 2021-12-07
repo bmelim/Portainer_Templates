@@ -32,6 +32,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**07/12/2021**
+  - Broadlink Manager
+  
 **06/12/2021**
   - Dozzle
 
