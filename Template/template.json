@@ -3757,7 +3757,7 @@
       "type": 3
     },
     {
-      "categories": ["API"],
+      "categories": ["Smart Home"],
       "description": "BroadlinkManager is a Flask powerd, easy to use system that hepls you to work with Broadlink Devices.", 
       "logo": "",
       "name": "broadlink-manager",
