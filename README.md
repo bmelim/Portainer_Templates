@@ -8,8 +8,6 @@ This is a template focused on helping people spin up selfhosted services using P
 1. A server/NAS with docker installed.
 2. A Portainer-CE setup.
 
-*Want something we don't have? Make an issue and we'll work on adding it*
-
 ### Installing
 
 1. Login to your Portainer setup go to settings
