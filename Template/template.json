@@ -3770,6 +3770,19 @@
       "type": 3
     },
     {
+      "categories": ["Smart Home"],
+      "description": "", 
+      "logo": "https://raw.githubusercontent.com/homebridge/branding/master/logos/homebridge-color-round-stylized.png",
+      "name": "homebridge",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/homebridge.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Homebridge",
+      "type": 3
+    },
+    {
       "categories": ["Video", "AI"],
       "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
       "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
