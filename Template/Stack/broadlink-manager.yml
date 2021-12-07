@@ -1,0 +1,11 @@
+version: "3.6"
+services:
+  broadlinkmanager:
+    image: techblog/broadlinkmanager
+    network_mode: host
+    container_name: broadlinkmanager
+    restart: always
+    restart: unless-stopped
+    volumes:
+      - /portainer/Files/AppData/Config/broadlinkmanager:/opt/broadlinkmanager/data
+

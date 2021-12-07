@@ -3757,6 +3757,19 @@
       "type": 3
     },
     {
+      "categories": ["API"],
+      "description": "BroadlinkManager is a Flask powerd, easy to use system that hepls you to work with Broadlink Devices.", 
+      "logo": "",
+      "name": "broadlink-manager",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/broadlink-manager.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Broadlink Manager",
+      "type": 3
+    },
+    {
       "categories": ["Video", "AI"],
       "description": "A complete and local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.", 
       "logo": "https://raw.githubusercontent.com/blakeblackshear/frigate/master/docs/static/img/frigate.png",
