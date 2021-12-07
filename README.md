@@ -33,6 +33,7 @@ All templates are already configured to bind mount to various places on your dri
 **07/12/2021**
   - Broadlink Manager
   - Homebridge
+  - NUTS
   
 **06/12/2021**
   - Dozzle
@@ -71,7 +72,6 @@ All templates are already configured to bind mount to various places on your dri
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
-
 
 
 ## 
