@@ -30,6 +30,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**12/12/2021**
+  - Firefox
+
 **07/12/2021**
   - Broadlink Manager
   - Homebridge
@@ -86,6 +89,9 @@ Other:
   - Dashmachine
   - Davos
   - Apprise-API
+
+Browsers:
+  - Firefox
 
 Smart Home:
   - Broadlink Manager
