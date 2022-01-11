@@ -159,7 +159,6 @@ Dashboard:
   - Freeboard
   - Cryptofolio
   - Nodered
-  - Docker Web-UI
   - Flame Dashboard
 
 Downloaders:
