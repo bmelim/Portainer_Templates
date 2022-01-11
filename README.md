@@ -30,6 +30,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**11/01/2022**
+  - Navidrome
+
 **12/12/2021**
   - Firefox
 
@@ -234,7 +237,7 @@ Music:
   - Mstream
   - MusicBrainz
   - Plex
- 
+  - Navidrome
 Network:
   - Uptime Kuma
   - Netbox
