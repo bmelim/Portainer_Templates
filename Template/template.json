@@ -1148,22 +1148,32 @@
     {
       "categories": ["Tools", "Dashboard"],
       "description": "Helps you organize your self-hosted services by making them accessible from a single place.",
-      "image": "lissy93/dashy:latest",
-      "logo": "https://dashy.to/img/dashy.png",
-      "name": "dashy",
-      "note": "This container requires a yml file within the config volume.https://github.com/Lissy93/dashy/blob/master/public/conf.yml See Deployment here https://github.com/Lissy93/dashy/blob/master/docs/deployment.md",
-      "platform": "linux",
-      "ports": ["4000:80/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Dashy",
-      "type": 1,
-      "volumes": [
+      "env": [
         {
-          "bind": "/portainer/Files/AppData/Config/Dashy/conf.yml",
-          "container": "/app/public/app/public/conf.yml"
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
         }
-      ]
-    },
+      ],
+      "logo": "https://dashy.to/img/dashy.png",
+      "name": "Dashy",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/dashy.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Dashy",
+      "type": 3
+    },  
     {
       "categories": ["Tools", "Dashboard"],
       "description": "Flame is self-hosted startpage for your server. Its design is inspired (heavily) by SUI. Flame is very easy to setup and use. With built-in editors, it allows you to setup your very own application hub in no time - no file editing necessary.",
