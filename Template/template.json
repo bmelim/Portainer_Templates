@@ -3676,18 +3676,6 @@
       "type": 3
     },
     {
-      "categories": ["Dashboard"],
-      "description": "This application will list all dockers that have a WebUI.",
-      "image": "olprog/unraid-docker-webui:latest",
-      "logo": "https://raw.githubusercontent.com/Olprog59/unraid-templates/main/docker-webui/docker-webui.png",
-      "name": "dockerwebui",
-      "platform": "linux",
-      "ports": ["8888:8080/tcp"],
-      "restart_policy": "always",
-      "title": "Docker Web-UI",
-      "type": 1
-    },
-    {
       "categories": ["Other"],
       "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
       "env": [
