@@ -1159,8 +1159,8 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Dashy/icons",
-          "container": "/app/public/item-icons"
+          "bind": "/portainer/Files/AppData/Config/Dashy/conf.yml",
+          "container": "/app/public/app/public/conf.yml"
         }
       ]
     },
