@@ -30,6 +30,8 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**28/01/2022**
+  - Pi.alert
 **11/01/2022**
   - Navidrome
 
@@ -243,6 +245,7 @@ Network:
   - Netbox
   - Change Detection
   - Statping
+  - Pi.alert
  
 Other:
   - FreshRSS
