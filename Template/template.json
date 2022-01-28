@@ -1762,9 +1762,9 @@
       "title": "Pi.alert",
       "type": 1,
       "volumes": [
-              {
-                "bind": "/portainer/Files/AppData/Config/pi.alert",
-                "container": "/config"
+        {
+          "bind": "/portainer/Files/AppData/Config/pi.alert",
+          "container": "/config"
         },
     {
       "categories": ["Video", "Tools"],
