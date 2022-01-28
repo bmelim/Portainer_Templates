@@ -1757,7 +1757,7 @@
       "logo": "https://raw.githubusercontent.com/pucherot/Pi.Alert/main/docs/img/1_devices.jpg",
       "name": "pi.alert",
       "platform": "linux",
-      "ports": ["30000:30000/udp"],
+      "ports": ["20211:20211/udp"],
       "restart_policy": "always",
       "title": "Pi.alert",
       "type": 1,
