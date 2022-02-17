@@ -4,7 +4,7 @@ version: '3.9'
             image: kizaing/kavita:latest
             volumes:
                 - ./manga:/manga
-                - ./data:/kavita/config
+                - /portainer/Files/AppData/Kavita/Data:/kavita/config
             ports:
                 - "5000:5000"
             restart: unless-stopped
