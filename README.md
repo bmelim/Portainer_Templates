@@ -1,4 +1,4 @@
-Happy New Year 2022 - On January I will add some more services, stay Tuned!
+February 2022: Keep on adding stuff!
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
@@ -30,6 +30,8 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**17/02/2022*
+  - Kavita
 **28/01/2022**
   - Pi.alert
 **11/01/2022**
