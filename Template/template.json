@@ -349,6 +349,40 @@
       ]
     },
     {
+      "categories": ["Books"],
+      "description": "Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "kizaing/kavita:latest",
+      "logo": "https://www.kavitareader.com/img/logo.png",
+      "name": "kavita",
+      "platform": "linux",
+      "ports": ["5000/tcp"],
+      "restart_policy": "unless-stopped",
+      "title": "Kavita",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Books",
+          "container": "/books"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/kavita",
+          "container": "/config"
+        }
+      ]
+    },
+    {
       "categories": ["Cloud", "Books"],
       "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.",
       "env": [
