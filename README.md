@@ -127,6 +127,7 @@ Backup:
   - Sync Thing
 
 Books:
+  - Kavita
   - Booksonic
   - COPS
   - Calibre Web
