@@ -1,0 +1,12 @@
+services:
+  fenrus:
+    image: revenz/fenrus
+    container_name: fenrus
+    environment:
+      - TZ=Europe/Athens
+    volumes:
+      - /portainer/Files/AppData/Config/fenrus/data:/app/data
+      - /portainer/Files/AppData/Config/fenrus/images:/app/wwwroot/images
+    ports:
+      - 3003:3000
+    restart: unless-stopped
