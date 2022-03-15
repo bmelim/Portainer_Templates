@@ -30,6 +30,8 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**15/03/2022**
+  - Fenrus
 **17/02/2022*
   - Kavita
 **28/01/2022**
@@ -168,6 +170,7 @@ Dashboard:
   - Cryptofolio
   - Nodered
   - Flame Dashboard
+  - Fenrus
 
 Downloaders:
   - Aria2 Pro
