@@ -1207,6 +1207,35 @@
       },
       "title": "Dashy",
       "type": 3
+    },
+    {
+      "categories": ["Tools", "Dashboard"],
+      "description": "Fenrus is a Node application and requires NodeJS to run. Once NodeJS is installed you can run Fenrus",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://user-images.githubusercontent.com/958400/154829266-62206846-c6ef-4718-9910-2b83eb6aa41c.png",
+      "name": "Fenrus",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/fenrus.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Fenrus",
+      "type": 3
     },  
     {
       "categories": ["Tools", "Authentication"],
