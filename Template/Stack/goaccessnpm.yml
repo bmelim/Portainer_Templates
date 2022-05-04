@@ -3,7 +3,7 @@ goaccess:
     container_name: goaccessnpm
     restart: always
     volumes:
-        - /portainer/Files/AppData/Config/goaccessnpm/logs:/opt/log
+        - /portainer/Files/AppData/Config/Nginx-Proxy/data/logs:/opt/log
     ports:
         - '7880:7880'
     environment:
