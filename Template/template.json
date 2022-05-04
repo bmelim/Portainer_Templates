@@ -3985,6 +3985,19 @@
       "type": 3
     },
     {
+      "categories": ["Productivity"],
+      "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.", 
+      "logo": "https://baserow.io/_nuxt/img/logo.1421f77.svg",
+      "name": "Baserow",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/baserow.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Baserow",
+      "type": 3
+    },
+    {
       "categories": ["Smart Home"],
       "description": "BroadlinkManager is a Flask powerd, easy to use system that hepls you to work with Broadlink Devices.", 
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/broadlink.png",
