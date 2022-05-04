@@ -1,7 +1,7 @@
 ---
 version: "2.1"
 services:
-  apprise-api:
+  goaccess:
     image: xavierh/goaccess-for-nginxproxymanager:latest
     container_name: goaccessnpm
     environment:
