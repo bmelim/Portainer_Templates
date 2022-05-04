@@ -1,16 +1,19 @@
-goaccess:
+---
+version: "2.1"
+services:
+  apprise-api:
     image: xavierh/goaccess-for-nginxproxymanager:latest
     container_name: goaccessnpm
-    restart: always
-    volumes:
-        - /portainer/Files/AppData/Config/Nginx-Proxy/data/logs:/opt/log
-    ports:
-        - '7880:7880'
     environment:
-        - PUID=0
-        - PGID=0
-        - TZ=Europe/Athens        
-        - SKIP_ARCHIVED_LOGS=False #optional
-        - BASIC_AUTH=False #optional
-        - BASIC_AUTH_USERNAME=user #optional
-        - BASIC_AUTH_PASSWORD=pass #optional
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Athens
+      - SKIP_ARCHIVED_LOGS=False #optional
+      - BASIC_AUTH=False #optional
+      - BASIC_AUTH_USERNAME=user #optional
+      - BASIC_AUTH_PASSWORD=pass #optional
+    volumes:
+      - /portainer/Files/AppData/Config/Nginx-Proxy/data/logs:/opt/log
+    ports:
+      - 7880:7880 
+    restart: always
