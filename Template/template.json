@@ -1577,7 +1577,7 @@
         }
       ],
       "logo": "https://www.hugeserver.com/kb/wp-content/uploads/2017/09/goaccess.png",
-      "name": "GoAccess for NPM logs",
+      "name": "GoAccess",
       "platform": "linux",
       "repository": {
         "stackfile": "Template/Stack/goaccessnpm.yml",
