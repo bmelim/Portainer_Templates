@@ -30,6 +30,10 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**04/05/2022**
+  - Baserow
+  - GoAccess for Nginx Proxy Manager Logs
+  
 **15/03/2022**
   - Fenrus
   
