@@ -1552,6 +1552,40 @@
           "label": "PGID",
           "name": "PGID"
         },
+	
+	{
+      "categories": ["Tools"],
+      "description": "GoAccess for NGINX Proxy Manager Logs.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "TZ",
+          "name": "TZ"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "data:image/png;base64,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",
+      "name": "GoAccess for NPM logs",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/goaccessnpm.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "GoAccess for NPM logs",
+      "type": 3
+    },
         {
           "label": "VALIDATION",
           "name": "VALIDATION",
