@@ -3729,7 +3729,7 @@
     {
       "categories": ["Tools"],
       "description": "Teleport allows engineers and security professionals to unify access for SSH servers, Kubernetes clusters, web applications, and databases across all environments.",
-      "logo": "https://camo.githubusercontent.com/a030d100bc4c64a66677bde526258da644c3b3ead57887c2baa02decaf5a9abb/68747470733a2f2f676f74656c65706f72742e636f6d2f626c6f672f696d616765732f323032302f6772617669746174696f6e616c2d69732d74656c65706f72742d6865616465722e706e67",
+      "logo": "https://bookface-images.s3.amazonaws.com/logos/386100350818400a035ac8e0caa84111de3316eb.png",
       "name": "teleport",
       "repository": {
 	    "stackfile": "Template/Stack/teleport.yml",
