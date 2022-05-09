@@ -7,5 +7,6 @@ services:
       - 13378:80
     volumes:
       - /portainer/Files/AppData/Config/audiobookshelf/audiobooks:/audiobooks
+      - /portainer/Files/AppData/Config/audiobookshelf/podcasts:/podcasts
       - /portainer/Files/AppData/Config/audiobookshelf/metadata:/metadata
       - /portainer/Files/AppData/Config/audiobookshelf:/config
