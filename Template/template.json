@@ -1209,6 +1209,35 @@
       "type": 3
     },
     {
+      "categories": ["Multimedia", "Audio"],
+      "description": "Self hosted audiobook and podcast server",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://github.com/advplyr/audiobookshelf/raw/master/images/banner.svg",
+      "name": "Audiobookshelf",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/audiobookshelf.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Audiobookshelf",
+      "type": 3
+    },
+    {
       "categories": ["Tools", "Dashboard"],
       "description": "Fenrus is a Node application and requires NodeJS to run. Once NodeJS is installed you can run Fenrus",
       "env": [
