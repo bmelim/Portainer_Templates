@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf
+    ports:
+      - 13378:80
+    volumes:
+      - /portainer/Files/AppData/Config/apprise/audiobookshelf/audiobooks:/audiobooks
+      - /portainer/Files/AppData/Config/apprise/audiobookshelf/metadata:/metadata
+      - - /portainer/Files/AppData/Config/apprise/audiobookshelf/:/config
