@@ -1,7 +1,7 @@
 ---
 version: "2.1"
 services:
-  apprise-api:
+  baserow:
     image: baserow/baserow:1.9.1
     container_name: baserow
     environment:
