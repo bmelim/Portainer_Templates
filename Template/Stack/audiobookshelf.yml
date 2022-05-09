@@ -2,6 +2,7 @@ version: "3.7"
 
 services:
   audiobookshelf:
+    container_name: audiobookshelf
     image: ghcr.io/advplyr/audiobookshelf
     ports:
       - 13378:80
