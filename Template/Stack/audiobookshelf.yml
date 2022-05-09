@@ -8,4 +8,4 @@ services:
     volumes:
       - /portainer/Files/AppData/Config/audiobookshelf/audiobooks:/audiobooks
       - /portainer/Files/AppData/Config/audiobookshelf/metadata:/metadata
-      - /portainer/Files/AppData/Config/audiobookshelf/:/config
+      - /portainer/Files/AppData/Config/audiobookshelf:/config
