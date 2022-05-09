@@ -4,6 +4,7 @@ volumes:
   
 services:
   homechart:
+    container_name: homechart
     depends_on:
       - postgres
     environment:
