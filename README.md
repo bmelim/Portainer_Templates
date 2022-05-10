@@ -258,6 +258,7 @@ Music:
   - MusicBrainz
   - Plex
   - Navidrome
+  
 Network:
   - Uptime Kuma
   - Netbox
@@ -298,6 +299,7 @@ Productivity:
   - Owncloud
   - PrejectSend
   - ProtonMail Bridge
+  - Trilium Notes
 
 Proxy:
   - Nginx
