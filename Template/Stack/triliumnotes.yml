@@ -10,7 +10,7 @@ services:
     ports:
       - "3388:8080"
     volumes:
-      - - /portainer/Files/AppData/Config/trilium:/data
+      - /portainer/Files/AppData/Config/trilium:/data
 
 volumes:
   trilium:
