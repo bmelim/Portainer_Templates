@@ -324,6 +324,7 @@
         
       ],
       "logo": "https://www.electronjs.org/images/app-img/trilium-notes/trilium-notes-icon-128.092eacaa2c5208e839664144bf95a89b.png",
+      "name": "trilium",
       "platform": "linux",
       "repository": {
         "stackfile": "Template/Stack/triliumnotes.yml",
