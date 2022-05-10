@@ -1,4 +1,4 @@
-March 2022: Keep on adding stuff!
+**May 2022: Keep on adding stuff!**
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
@@ -29,6 +29,9 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
+
+**10/05/2022**
+  - Trilium Notes
 
 **09/05/2022**
   - Audiobookshelf
