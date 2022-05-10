@@ -317,12 +317,6 @@
      {
       "categories": ["Productivity"],
       "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases. ",
-      "env": [
-        {
-          "TRILIUM_DATA_DIR": "data"
-        },
-        
-      ],
       "logo": "https://www.electronjs.org/images/app-img/trilium-notes/trilium-notes-icon-128.092eacaa2c5208e839664144bf95a89b.png",
       "name": "trilium",
       "platform": "linux",
