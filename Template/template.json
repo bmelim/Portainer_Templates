@@ -319,7 +319,7 @@
       "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases. ",
       "env": [
         {
-          "TRILIUM_DATA_DIR": "/data"
+          "TRILIUM_DATA_DIR": "data"
         },
         
       ],
