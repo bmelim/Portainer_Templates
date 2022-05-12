@@ -15,7 +15,7 @@ services:
     # environment:
       # Uncomment this if you want to change the location of 
       # the SQLite DB file within the container
-      DB_SQLITE_FILE: "- /portainer/Files/AppData/Config/npm/data/database.sqlite"
+      DB_SQLITE_FILE: "/portainer/Files/AppData/Config/npm/data/database.sqlite"
 
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
