@@ -1,6 +1,7 @@
 version: "3"
 services:
   navidrome:
+    container_name: navidrome
     image: deluan/navidrome:latest
     ports:
       - "4533:4533"
