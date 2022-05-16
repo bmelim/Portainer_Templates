@@ -4,7 +4,9 @@ services:
     container_name: trilium
     image: zadam/trilium
     restart: always
+    environment:
+      - TRILIUM_DATA_DIR=/home/node/trilium-data
     ports:
       - "3388:8080"
     volumes:
-      - /portainer/Files/AppData/Config/trilium:/home/node/trilium-data
+      - /portainer/Files/AppData/Config/trilium:/data
