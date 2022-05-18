@@ -330,6 +330,8 @@
           "bind": "/portainer/Files/AppData/Config/trilium-data",
           "container": "/home/node/trilium-data"
      },
+     ]
+    },
     {
       "categories": ["Cloud", "Books"],
       "description": "COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.",
