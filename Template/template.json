@@ -327,19 +327,9 @@
           "default": "100",
           "label": "PGID",
           "name": "PGID"
-        },
-        {
-          "label": "CONTEXT_PATH",
-          "name": "CONTEXT_PATH",
-          "set": "airsonic"
-        },
-        {
-          "label": "JAVA_OPTS",
-          "name": "JAVA_OPTS",
-          "set": "-Xms256m -Xmx512m"
         }
       ],
-      "image": "linuxserver/airsonic:latest",
+      "image": "zadam/trilium:latest",
       "logo": "https://www.saashub.com/images/app/service_logos/55/2901389fab77/large.png?1561117248",
       "name": "trilium",
       "platform": "linux",
@@ -349,24 +339,8 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Music",
-          "container": "/music"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Airsonic/Playlists",
-          "container": "/playlists"
-        },
-        {
-          "bind": "/portainer/Podcasts",
-          "container": "/podcasts"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Airsonic/Media",
-          "container": "/media"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Config/Airsonic/",
-          "container": "/config"
+          "bind": "/portainer/Files/AppData/Config/trilium-data",
+          "container": "/home/node/trilium-data"
         }
       ]
     },
