@@ -329,7 +329,7 @@
         {
           "bind": "/portainer/Files/AppData/Config/trilium-data",
           "container": "/home/node/trilium-data"
-     },
+        },
      ]
     },
     {
