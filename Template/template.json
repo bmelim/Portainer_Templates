@@ -317,6 +317,17 @@
     {
       "categories": ["Productivity"],
       "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases",
+       "env": [
+        {
+          "default": "/home/node/trilium-data",
+          "label": "TRILIUM_DATA_DIR",
+          "name": "TRILIUM_DATA_DIR"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
       "image": "zadam/trilium:latest",
       "logo": "https://www.saashub.com/images/app/service_logos/55/2901389fab77/large.png?1561117248",
       "name": "trilium",
