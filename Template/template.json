@@ -314,19 +314,22 @@
       "title": "Bookstack",
       "type": 3
     },
-     {
-      "categories": ["Productivity"],
-      "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases. ",
+    {
+      "categories": ["Productivity", "Notes"],
+      "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases.",
+      "image": "zadam/trilium:latest",
       "logo": "https://www.saashub.com/images/app/service_logos/55/2901389fab77/large.png?1561117248",
       "name": "trilium",
       "platform": "linux",
-      "repository": {
-        "stackfile": "Template/Stack/triliumnotes.yml",
-        "url": "https://github.com/xneo1/portainer_templates"
-      },
-      "title": "Trilium Notes",
-      "type": 3
-    },
+      "ports": ["3388:8080/tcp"],
+      "restart_policy": "always",
+      "title": "Trilium",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/trilium-data",
+          "container": "/home/node/trilium-data"
+     },
     {
       "categories": ["Cloud", "Books"],
       "description": "COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.",
