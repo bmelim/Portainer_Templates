@@ -1,26 +1,26 @@
 version: "3"
 services:
-  tandoor_db_recipes:
+  db_recipes:
     restart: always
     image: postgres:11-alpine
     volumes:
-      - /portainer/Files/AppData/Config/tandoor/postgresql: /var/lib/postgresql/data
+      - ./postgresql:/var/lib/postgresql/data
     env_file:
       - ./.env
 
-  tandoor_web_recipes:
+  web_recipes:
     restart: always
     image: vabene1111/recipes
     env_file:
       - ./.env
     volumes:
-      - /portainer/Files/AppData/Config/tandoor/staticfiles: /opt/recipes/staticfiles
-      - /portainer/Files/AppData/Config/tandoor/nginx_config: /opt/recipes/nginx/conf.d
-      - /portainer/Files/AppData/Config/tandoor/mediafiles: /opt/recipes/mediafiles
+      - staticfiles:/opt/recipes/staticfiles
+      - nginx_config:/opt/recipes/nginx/conf.d
+      - ./mediafiles:/opt/recipes/mediafiles
     depends_on:
       - db_recipes
 
-  tandoor_nginx_recipes:
+  nginx_recipes:
     image: nginx:mainline-alpine
     restart: always
     ports:
@@ -30,9 +30,9 @@ services:
     depends_on:
       - web_recipes
     volumes:
-      - /portainer/Files/AppData/Config/tandoor/nginx_config: /etc/nginx/conf.d:ro
-      - /portainer/Files/AppData/Config/tandoor/staticfiles: /static:ro
-      - /portainer/Files/AppData/Config/tandoor/mediafiles: /media:ro
+      - nginx_config:/etc/nginx/conf.d:ro
+      - staticfiles:/static:ro
+      - ./mediafiles:/media:ro
 
 volumes:
   nginx_config:
