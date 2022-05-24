@@ -522,7 +522,7 @@
       "categories": ["Tools"],
       "description": "The recipe manager that allows you to manage your ever growing collection of digital recipes.",
       "image": "vabene1111/recipes:latest",
-      "logo": "https://docs.tandoor.dev/logo_color.svgg",
+      "logo": "https://docs.tandoor.dev/logo_color.svg",
       "name": "Tandoor",
       "platform": "linux",
       "ports": ["3280:8080/tcp"],
