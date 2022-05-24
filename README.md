@@ -30,6 +30,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**24/05/2022*
+  - Tandoor
+
 **10/05/2022**
   - Trilium Notes
 
