@@ -4,7 +4,7 @@ services:
     restart: always
     image: postgres:11-alpine
     volumes:
-      - ./postgresql:/var/lib/postgresql/data
+      - /portainer/Files/AppData/Config/tandoor/postgresql: /var/lib/postgresql/data
     env_file:
       - ./.env
 
@@ -14,9 +14,9 @@ services:
     env_file:
       - ./.env
     volumes:
-      - staticfiles:/opt/recipes/staticfiles
-      - nginx_config:/opt/recipes/nginx/conf.d
-      - ./mediafiles:/opt/recipes/mediafiles
+      - /portainer/Files/AppData/Config/tandoor/staticfiles: /opt/recipes/staticfiles
+      - /portainer/Files/AppData/Config/tandoor/nginx_config: /opt/recipes/nginx/conf.d
+      - /portainer/Files/AppData/Config/tandoor/mediafiles: /opt/recipes/mediafiles
     depends_on:
       - db_recipes
 
@@ -30,9 +30,9 @@ services:
     depends_on:
       - web_recipes
     volumes:
-      - nginx_config:/etc/nginx/conf.d:ro
-      - staticfiles:/static:ro
-      - ./mediafiles:/media:ro
+      - /portainer/Files/AppData/Config/tandoor/nginx_config: /etc/nginx/conf.d:ro
+      - /portainer/Files/AppData/Config/tandoor/staticfiles: /static:ro
+      - /portainer/Files/AppData/Config/tandoor/mediafiles: /media:ro
 
 volumes:
   nginx_config:
