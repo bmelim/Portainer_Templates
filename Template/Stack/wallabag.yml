@@ -28,7 +28,7 @@ services:
             # Copy docker/php/env.example to docker/php/env and customize
             - ./wallabag/php/env
             # Uncomment the database engine you want, it will use sqlite if both are commented
-            - .wallabag.maria.env
+            - ./wallabag/mariadb/env
             # - ./docker/postgres/env
             # Uncomment to enable Xdebug
             # - ./docker/php/xdebug
