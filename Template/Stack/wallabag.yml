@@ -53,14 +53,14 @@ services:
     #         timeout: 3s
     #         retries: 3
 
-    # mariadb:
-    #    image: mariadb:10
-    #    ports:
-    #        - "3306:3306"
-    #    volumes:
-    #        - db-data:/var/lib/mysql
-    #    env_file:
-    #        - ./docker/mariadb/env
+    mariadb:
+       image: mariadb:10
+       ports:
+           - "3306:3306"
+       volumes:
+           - db-data:/var/lib/mysql
+       env_file:
+           - ./docker/mariadb/env
 
     # rabbitmq:
     #     image: rabbitmq:3-management-alpine
