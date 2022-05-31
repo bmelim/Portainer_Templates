@@ -22,8 +22,17 @@ services:
       - servas-db
     ports:
       - "8456:80"
-    env_file:
-      - .servas.env:/var/www/html/.env
-
+    environment:
+      - APP_NAME=Servas
+      - APP_ENV=production
+      - APP_KEY=
+      - APP_DEBUG=false
+      - APP_URL=https://your-servas-instance
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=servas_db
+      - DB_USERNAME=servas_db_user
+      - DB_PASSWORD=password
 volumes:
   servas-db-data:
