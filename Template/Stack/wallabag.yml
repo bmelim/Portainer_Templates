@@ -16,7 +16,7 @@ services:
       - SYMFONY__ENV__MAILER_PASSWORD=~
       - SYMFONY__ENV__FROM_EMAIL=wallabag@example.com
       - SYMFONY__ENV__DOMAIN_NAME=https://your-wallabag-url-instance.com
-      - SYMFONY__ENV__SERVER_NAME="Your wallabag instance"
+      - SYMFONY__ENV__SERVER_NAME=wallabag-server
     ports:
       - "8234:80"
     volumes:
@@ -29,7 +29,7 @@ services:
       - db
       - redis
   db:
-    image: mariadb
+    image: mariadb:latest
     environment:
       - MYSQL_ROOT_PASSWORD=wallaroot
     volumes:
