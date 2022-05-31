@@ -63,7 +63,7 @@ services:
     #     ports:
     #         - "15672:15672"
 
-wallabag-redis:
+redis:
 container_name: wallabag-redis
 image: redis:6-alpine
 healthcheck:
