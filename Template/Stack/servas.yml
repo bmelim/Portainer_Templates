@@ -1,39 +1,28 @@
 version: "3"
 
 services:
-  servas-db:
+  db:
     image: mariadb:10.7.3
-    container_name: servas-db
     restart: unless-stopped
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
     environment:
-      - MARIADB_ROOT_PASSWORD=servas!@#4
-      - MARIADB_USER=servas_db_user
-      - MARIADB_PASSWORD=password
-      - MARIADB_DATABASE=servas_db
+      - MARIADB_ROOT_PASSWORD=${DB_PASSWORD}
+      - MARIADB_USER=${DB_USERNAME}
+      - MARIADB_PASSWORD=${DB_PASSWORD}
+      - MARIADB_DATABASE=${DB_DATABASE}
     volumes:
-      - /portainer/Files/AppData/Config/servas/servas-data:/var/lib/mysql
+      - servas-db-data:/var/lib/mysql
 
-  servas-app:
+  servas:
     image: beromir/servas
-    container_name: servas-app
+    container_name: servas
     restart: unless-stopped
     depends_on:
-      - servas-db
+      - db
     ports:
       - "8234:80"
-    environment:
-      - APP_NAME=Servas
-      - APP_ENV=production
-      - APP_KEY=
-      - APP_DEBUG=false
-      - APP_URL=https://127.0.0.1
-      - DB_CONNECTION=mysql
-      - DB_HOST=servas-db
-      - DB_PORT=3306
-      - DB_DATABASE=servas_db
-      - DB_USERNAME=servas_db_user
-      - DB_PASSWORD=password
+    volumes:
+      - ./.env:/var/www/html/.env
 
 volumes:
-  servas-data:
+  servas-db-data:
