@@ -32,6 +32,8 @@ services:
     image: mariadb
     environment:
       - MYSQL_ROOT_PASSWORD=wallaroot
+    ports:
+      - "3316"
     volumes:
       - /portainer/Files/AppData/Config/wallabag/data:/var/lib/mysql
     healthcheck:
