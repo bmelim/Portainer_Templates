@@ -3791,6 +3791,21 @@
     },
     {
       "categories": ["Tools"],
+      "description": "A self-hosted bookmark management tool.",
+      "logo": "https://github.com/beromir/Servas/raw/main/docs/images/home.png",
+      "name": "Servas",
+      "repository": {
+	    "stackfile": "Template/Stack/servas.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "platform": "linux",
+      "ports": ["8456:80/tcp"],
+      "restart_policy": "always",
+      "title": "Servas",
+      "type": 3
+    },
+    {
+      "categories": ["Tools"],
       "description": "wallabag is a web application allowing you to save web pages for later reading. Click, save and read it when you want.",
       "logo": "https://www.wallabag.org/user/themes/boxify/img/logo-wallabag.svg",
       "name": "Wallabag",
