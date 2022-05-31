@@ -1,52 +1,27 @@
-version: '3'
+version: "3"
+
 services:
-  wallabag:
+  app:
     image: wallabag/wallabag
-    environment:
-      - MYSQL_ROOT_PASSWORD=wallaroot
-      - SYMFONY__ENV__DATABASE_DRIVER=pdo_mysql
-      - SYMFONY__ENV__DATABASE_HOST=db
-      - SYMFONY__ENV__DATABASE_PORT=3316
-      - SYMFONY__ENV__DATABASE_NAME=wallabag
-      - SYMFONY__ENV__DATABASE_USER=wallabag
-      - SYMFONY__ENV__DATABASE_PASSWORD=wallapass
-      - SYMFONY__ENV__DATABASE_CHARSET=utf8mb4
-      - SYMFONY__ENV__MAILER_HOST=127.0.0.1
-      - SYMFONY__ENV__MAILER_USER=~
-      - SYMFONY__ENV__MAILER_PASSWORD=~
-      - SYMFONY__ENV__FROM_EMAIL=wallabag@example.com
-      - SYMFONY__ENV__DOMAIN_NAME=https://your-wallabag-url-instance.com
-      - SYMFONY__ENV__SERVER_NAME=wallabag-server
-    ports:
-      - "8234:80"
-    volumes:
-      - type: bind
-        source: /portainer/Files/AppData/Config/wallabag/images
-        target: /var/www/wallabag/web/assets/images
+    container_name: wallabag
+    restart: unless-stopped
     healthcheck:
-      test: ["CMD", "wget" ,"--no-verbose", "--tries=1", "--spider", "http://localhost"]
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-verbose",
+          "--tries=1",
+          "--spider",
+          "http://localhost",
+        ]
       interval: 1m
       timeout: 3s
-    depends_on:
-      - db
-      - redis
-  db:
-    image: mariadb:latest
     environment:
-      - MYSQL_ROOT_PASSWORD=wallaroot
-    volumes:
-      - type: bind
-        source: /portainer/Files/AppData/Config/wallabag/data
-        target: /var/lib/mysql
-    healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
-      interval: 10s
-      timeout: 30s
+      - SYMFONY__ENV__DOMAIN_NAME=http://127.0.0.1:8234
+      - SYMFONY__ENV__SERVER_NAME="My Wallabag Instance"
     ports:
-      - "3316:3306"
-  redis:
-    image: redis:alpine
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
-      interval: 20s
-      timeout: 3s
+      - 127.0.0.1:8234:80
+    volumes:
+      - ./data:/var/www/wallabag/data
+      - ./images:/var/www/wallabag/web/assets/images
