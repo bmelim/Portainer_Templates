@@ -1,5 +1,7 @@
 version: '3.8'
 services:
+
+    wallabag-app:
         volumes:
             - /portainer/Files/AppData/Config/wallabag:/var/www/html
             # Volumes for data-related folders
