@@ -3775,6 +3775,21 @@
       "type": 1
     },
     {
+      "categories": ["Tools"],
+      "description": "A self-hosted bookmark management tool.",
+      "logo": "https://github.com/beromir/Servas/raw/main/docs/images/home.png",
+      "name": "servas",
+      "repository": {
+	    "stackfile": "Template/Stack/servas.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "platform": "linux",
+      "ports": ["8234:80/tcp"],
+      "restart_policy": "always",
+      "title": "Servas",
+      "type": 3
+    },
+    {
       "categories": ["Dashboard", "IoT"],
       "description": "Freeboard is a turn-key HTML-based 'engine' for dashboards. Besides a nice looking layout engine, it provides a plugin architecture for creating datasources (which fetch data) and widgets (which display data)— freeboard then does all the work to connect the two together.",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/freeboard.jpg",
