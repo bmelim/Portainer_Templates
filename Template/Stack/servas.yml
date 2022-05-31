@@ -22,7 +22,7 @@ services:
       - servas-db
     ports:
       - "8456:80"
-    volumes:
+    env_file:
       - .servas.env:/var/www/html/.env
 
 volumes:
