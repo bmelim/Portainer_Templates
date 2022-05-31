@@ -20,7 +20,6 @@ services:
     ports:
       - "8234:80"
     volumes:
-    volumes:
       - type: bind
         source: /portainer/Files/AppData/Config/wallabag/images
         target: /var/www/wallabag/web/assets/images
