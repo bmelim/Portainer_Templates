@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  servas-db:
+  db:
     image: mariadb:10.7.3
     restart: unless-stopped
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
@@ -11,20 +11,18 @@ services:
       - MARIADB_PASSWORD=${DB_PASSWORD}
       - MARIADB_DATABASE=${DB_DATABASE}
     volumes:
-      - /portainer/Files/AppData/Config/servas/servas-data:/var/lib/mysql
+      - servas-db-data:/var/lib/mysql
 
-  servas-app:
+  servas:
     image: beromir/servas
     container_name: servas
     restart: unless-stopped
     depends_on:
-      - servas-db
+      - db
     ports:
       - "8234:80"
     volumes:
-      - /portainer/Files/AppData/Config/servas/
-    env_file:
-      - servas.env:/var/www/html/.env
+      - ./servas.env:/var/www/html/.env
 
 volumes:
-  servas-data:
+  servas-db-data:
