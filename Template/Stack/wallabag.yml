@@ -1,11 +1,5 @@
 version: '3.8'
 services:
-
-    php:
-        build:
-            context: docker/php
-            # Use target 'rootless' if you run rootless Docker
-            target: default
         volumes:
             - /portainer/Files/AppData/Config/wallabag:/var/www/html
             # Volumes for data-related folders
