@@ -7,10 +7,10 @@ services:
     restart: unless-stopped
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
     environment:
-      - MARIADB_ROOT_PASSWORD=${DB_PASSWORD}
-      - MARIADB_USER=${DB_USERNAME}
-      - MARIADB_PASSWORD=${DB_PASSWORD}
-      - MARIADB_DATABASE=${DB_DATABASE}
+      - MARIADB_ROOT_PASSWORD=servas!@#4
+      - MARIADB_USER=servas_db_user
+      - MARIADB_PASSWORD=password
+      - MARIADB_DATABASE=servas_db
     volumes:
       - /portainer/Files/AppData/Config/servas/servas-db-data:/var/lib/mysql
 
