@@ -30,6 +30,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**31/05/2022*
+  - Servas
+
 **24/05/2022*
   - Tandoor
 
