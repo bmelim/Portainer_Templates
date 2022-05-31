@@ -11,7 +11,7 @@ services:
       - MARIADB_PASSWORD=${DB_PASSWORD}
       - MARIADB_DATABASE=${DB_DATABASE}
     volumes:
-      - servas-db-data:/var/lib/mysql
+      - /portainer/Files/AppData/Config/servas/servas-db-data:/var/lib/mysql
 
   servas:
     image: beromir/servas
