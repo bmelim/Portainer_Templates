@@ -64,13 +64,13 @@ services:
     #         - "15672:15672"
 
 redis:
-container_name: wallabag-redis
-image: redis:6-alpine
-healthcheck:
-            test: ["CMD", "redis-cli", "ping"]
-            interval: 10s
-            timeout: 3s
-            retries: 3
+    container_name: wallabag-redis
+    image: redis:6-alpine
+    healthcheck:
+         test: ["CMD", "redis-cli", "ping"]
+         interval: 10s
+         timeout: 3s
+         retries: 3
 
 volumes:
     db-data:
