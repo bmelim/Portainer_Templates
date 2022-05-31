@@ -1,11 +1,11 @@
 version: '3.8'
 services:
 
-    wallabag-app:
-                 build:
-                 context: ./wallabag/php
-                 # Use target 'rootless' if you run rootless Docker
-                 target: default
+    app:
+        build:
+            context: ./wallabag/php
+            # Use target 'rootless' if you run rootless Docker
+            target: default
         volumes:
             - /portainer/Files/AppData/Config/wallabag:/var/www/html
             # Volumes for data-related folders
