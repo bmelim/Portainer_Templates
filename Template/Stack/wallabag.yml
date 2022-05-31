@@ -56,7 +56,7 @@ services:
     mariadb:
        image: mariadb:10
        ports:
-           - "3306:3306"
+           - "3316:3306"
        volumes:
            - db-data:/var/lib/mysql
        env_file:
