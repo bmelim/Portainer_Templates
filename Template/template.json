@@ -1207,7 +1207,7 @@
       "categories": ["Tools" , "Dashboard"],
       "description": "A dead simple static Homepage for your server to keep your services on hand, from a simple yaml configuration file.",
       "image": "b4bz/homer:latest",
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/homer.png",
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/homer-dashboard.png",
       "name": "homer",
       "note": "This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
       "platform": "linux",
