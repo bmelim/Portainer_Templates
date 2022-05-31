@@ -18,7 +18,7 @@ services:
       - SYMFONY__ENV__DOMAIN_NAME=https://your-wallabag-url-instance.com
       - SYMFONY__ENV__SERVER_NAME="Your wallabag instance"
     ports:
-      - "8234"
+      - "8234:80"
     volumes:
       - /portainer/Files/AppData/Config/wallabag/images:/var/www/wallabag/web/assets/images
     healthcheck:
