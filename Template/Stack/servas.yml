@@ -21,8 +21,8 @@ services:
       - servas-db
     ports:
       - "8234:80"
-    volumes:
-      - /portainer/Files/AppData/Config/servas/.env:/var/www/html/.env
+    env_file:
+      - ./servas.env:/var/www/html/.env
 
 volumes:
   servas-db-data:
