@@ -3820,6 +3820,21 @@
       "type": 3
     },
     {
+      "categories": ["Finance"],
+      "description": "Ghostfolio is an open source wealth management software built with web technology.",
+      "logo": "https://avatars.githubusercontent.com/u/82473144?s=200",
+      "name": "Ghostfolio",
+      "repository": {
+	    "stackfile": "Template/Stack/ghostfolio.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "platform": "linux",
+      "ports": ["3663:80/tcp"],
+      "restart_policy": "always",
+      "title": "Ghostfolio",
+      "type": 3
+    },
+    {
       "categories": ["Tools"],
       "description": "A self-hosted bookmark management tool.",
       "logo": "https://github.com/beromir/Servas/raw/main/docs/images/home.png",
