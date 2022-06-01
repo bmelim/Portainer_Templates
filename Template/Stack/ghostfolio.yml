@@ -13,7 +13,7 @@ services:
   postgres:
     image: postgres:12
     env_file:
-      - ../.env
+      - .postgres.env
     volumes:
       - postgres:/var/lib/postgresql/data
 
