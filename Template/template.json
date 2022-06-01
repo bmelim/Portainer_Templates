@@ -1409,7 +1409,7 @@
     },
     {
       "categories": ["Tools"],
-      "description": "Eufy Security Web Socket",
+      "description": "Eufy Security Web Socket. Edit container and add username & password.",
       "env": [
         {
           "default": "InputUSER-email",
