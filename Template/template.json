@@ -1410,6 +1410,18 @@
     {
       "categories": ["Tools"],
       "description": "Eufy Security Web Socket",
+      "env": [
+        {
+          "default": "InputUSER-email",
+          "label": "USERNAME",
+          "name": "USERNAME"
+        },
+        {
+          "default": "InputPWD",
+          "label": "PASSWORD",
+          "name": "PASSWORD"
+        }
+      ],    
       "image": "bropat/eufy-security-ws:latest",
       "logo": "https://github.com/bropat/eufy-security-ws/raw/master/docs/_media/eufy-security-ws.png",
       "name": "eufy-security-ws",
