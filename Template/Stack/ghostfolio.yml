@@ -8,7 +8,6 @@ services:
       REDIS_PASSWORD: ${REDIS_PASSWORD}
       ACCESS_TOKEN_SALT: bvnbvnbcdfbdrf
       ALPHA_VANTAGE_API_KEY:
-      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@localhost:5432/${POSTGRES_DB}?sslmode=prefer
       JWT_SECRET_KEY: szvbt45rtfsg5rtgf
     ports:
       - 3443:3333
