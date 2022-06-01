@@ -1408,6 +1408,24 @@
       ]
     },
     {
+      "categories": ["Tools"],
+      "description": "Eufy Security Web Socket",
+      "image": "bropat/eufy-security-ws:latest",
+      "logo": "https://github.com/bropat/eufy-security-ws/raw/master/docs/_media/eufy-security-ws.png",
+      "name": "eufy-security-ws",
+      "platform": "linux",
+      "ports": ["3993:3000/tcp"],
+      "restart_policy": "unless-stopped",
+      "title": "Eufy Security WS",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/eufy-security-ws",
+          "container": "/data"
+        }
+      ]
+    },	  
+    {
       "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "Invoices, Expenses and Tasks built with Laravel and Flutter.",
       "env": [
