@@ -1,4 +1,4 @@
-**May 2022: Keep on adding stuff!**
+**June 2022: Keep on adding stuff!**
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
@@ -30,10 +30,14 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
-**31/05/2022*
-  
+**01/06/2022
+  - Eufy Security WS
 
-**24/05/2022*
+**31/05/2022**
+  *Comment: I tried integrating Servas and wallabag to be consisent with the /portainer/Files setup, but unfortunately I couldn't...at the time
+  I will try again during the summer, if I get a little bit more time in between feeding my newborn twins, after work! *.
+
+**24/05/2022**
   - Tandoor
 
 **10/05/2022**
