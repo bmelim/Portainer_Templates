@@ -13,7 +13,7 @@ services:
       - BASIC_AUTH_USERNAME=user #optional
       - BASIC_AUTH_PASSWORD=pass #optional
     volumes:
-      - /portainer/Files/AppData/Config/Nginx-Proxy/data/logs:/opt/log
+      - /home/choppy/Files/AppData/Config/Nginx-Proxy/data/logs:/opt/log
     ports:
       - 7880:7880 
     restart: always

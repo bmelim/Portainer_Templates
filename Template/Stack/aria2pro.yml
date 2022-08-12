@@ -19,8 +19,8 @@ services:
       - CUSTOM_TRACKER_URL=
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/aria2-pro:/config
-      - /portainer/Downloads:/downloads
+      - /home/choppy/Files/AppData/Config/aria2-pro:/config
+      - /home/choppy/Downloads:/downloads
 # If you use host network mode, then no port mapping is required.
 # This is the easiest way to use IPv6 networks.
 #    network_mode: host

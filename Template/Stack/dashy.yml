@@ -8,8 +8,8 @@ services:
     container_name: Dashy
     # Pass in your config file below, by specifying the path on your host machine
     volumes:
-       - /portainer/Files/AppData/Config/Dashy/conf.yml:/app/public/conf.yml
-       - /portainer/Files/AppData/Config/Dashy/icons:/app/public/item-icons/icons
+       - /home/choppy/Files/AppData/Config/Dashy/conf.yml:/app/public/conf.yml
+       - /home/choppy/Files/AppData/Config/Dashy/icons:/app/public/item-icons/icons
     ports:
       - 4000:80
     # Set any environmental variables

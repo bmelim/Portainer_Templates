@@ -11,4 +11,4 @@ services:
       - HOMEBRIDGE_CONFIG_UI_PORT=8581
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/homebridge:/homebridge
+      - /home/choppy/Files/AppData/Config/homebridge:/homebridge

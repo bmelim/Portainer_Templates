@@ -7,5 +7,5 @@ services:
     restart: always
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/broadlinkmanager:/opt/broadlinkmanager/data
+      - /home/choppy/Files/AppData/Config/broadlinkmanager:/opt/broadlinkmanager/data
 

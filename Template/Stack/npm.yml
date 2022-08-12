@@ -22,5 +22,5 @@ services:
       # DISABLE_IPV6: 'true'
 
     volumes:
-      - /portainer/Files/AppData/Config/npm/data:/data
-      - /portainer/Files/AppData/Config/npm/letsencrypt:/etc/letsencrypt
+      - /home/choppy/Files/AppData/Config/npm/data:/data
+      - /home/choppy/Files/AppData/Config/npm/letsencrypt:/etc/letsencrypt

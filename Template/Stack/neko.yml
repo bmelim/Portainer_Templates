@@ -21,10 +21,10 @@ services:
       - "5443:443"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
-      - "/portainer/Files/AppData/Config/traefik/traefik.yml:/etc/traefik/traefik.yml:ro"
-      - "/portainer/Files/AppData/Config/traefik/usersfile:/usersfile:ro"
-      - "/portainer/Files/AppData/Config/traefik/acme.json:/acme.json"
-      - "/portainer/Files/AppData/Config/traefik/config:/config"
+      - "/home/choppy/Files/AppData/Config/traefik/traefik.yml:/etc/traefik/traefik.yml:ro"
+      - "/home/choppy/Files/AppData/Config/traefik/usersfile:/usersfile:ro"
+      - "/home/choppy/Files/AppData/Config/traefik/acme.json:/acme.json"
+      - "/home/choppy/Files/AppData/Config/traefik/config:/config"
 
   neko-rooms:
     image: "m1k1o/neko-rooms:latest"

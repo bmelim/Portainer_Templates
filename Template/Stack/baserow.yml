@@ -7,7 +7,7 @@ services:
     environment:
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/baserow:/baserow/data
+      - /home/choppy/Files/AppData/Config/baserow:/baserow/data
     ports:
       - 280:80  #changed from default 80
       - 2443:443

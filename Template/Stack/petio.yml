@@ -9,7 +9,7 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - /portainer/Files/AppData/Config/petio/Config:/config
+      - /home/choppy/Files/AppData/Config/petio/Config:/config
     ports:
       - ${PORT}:7777
     restart: unless-stopped
@@ -23,6 +23,6 @@ services:
       - PGID=${PGID}
       - TZ=${Timezone}
     volumes:
-      - /portainer/AppData/Config/mongo_db/config:/data/configdb
-      - /portainer/AppData/Config/mongo_db/DB:/data/db
+      - /home/choppy/AppData/Config/mongo_db/config:/data/configdb
+      - /home/choppy/AppData/Config/mongo_db/DB:/data/db
     restart: unless-stopped

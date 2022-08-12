@@ -11,7 +11,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - .:/lab/frigate:cached
-      - /portainer/Files/AppData/Config/frigatenvr/config.yml:/config/config.yml:ro
+      - /home/choppy/Files/AppData/Config/frigatenvr/config.yml:/config/config.yml:ro
       - ./debug:/media/frigate
       - /dev/bus/usb:/dev/bus/usb
       - /dev/dri:/dev/dri # for intel hwaccel, needs to be updated for your hardware

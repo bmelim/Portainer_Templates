@@ -11,5 +11,5 @@ services:
       ND_LOGLEVEL: info  
       ND_BASEURL: ""
     volumes:
-      - "/portainer/Files/AppData/Config/navidrome:/data"
+      - "/home/choppy/Files/AppData/Config/navidrome:/data"
       - "/path/to/your/music/folder:/music:ro"

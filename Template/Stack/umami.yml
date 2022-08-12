@@ -18,7 +18,7 @@ services:
       POSTGRES_USER: umami
       POSTGRES_PASSWORD: umami
     volumes:
-      - /portainer/Files/AppData/Config/umami:/docker-entrypoint-initdb.d/schema.postgresql.sql:ro
+      - /home/choppy/Files/AppData/Config/umami:/docker-entrypoint-initdb.d/schema.postgresql.sql:ro
       - umami-db-data:/var/lib/postgresql/data
     restart: always
 volumes:

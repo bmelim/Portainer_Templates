@@ -14,8 +14,8 @@ services:
       - DB_USERNAME=invoice_ninja
       - DB_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - /portainer/Files/AppData/Config/Invoice-Ninja/public:/var/app/public
-      - /portainer/Files/AppData/Config/Invoice-Ninja/storage:/var/app/storage
+      - /home/choppy/Files/AppData/Config/Invoice-Ninja/public:/var/app/public
+      - /home/choppy/Files/AppData/Config/Invoice-Ninja/storage:/var/app/storage
     ports:
       - ${PORT}:9000
     restart: unless-stopped
@@ -31,5 +31,5 @@ services:
       - MYSQL_USER=invoice_ninja
       - MYSQL_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - /portainer/Files/AppData/Config/Invoice-Ninja/DB:/config
+      - /home/choppy/Files/AppData/Config/Invoice-Ninja/DB:/config
     restart: unless-stopped

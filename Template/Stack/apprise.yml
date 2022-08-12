@@ -9,7 +9,7 @@ services:
       - PGID=1000
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/apprise:/config
+      - /home/choppy/Files/AppData/Config/apprise:/config
     ports:
       - 8006:8000  #changed from default 8000 
     restart: unless-stopped

@@ -6,7 +6,7 @@ services:
     command: --max-allowed-packet=64MB
     restart: always
     volumes:
-      - /portainer/Files/AppData/Config/mariadb/matomo:/var/lib/mysql
+      - /home/choppy/Files/AppData/Config/mariadb/matomo:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=enterYOURpwd
     # env_file:
@@ -16,8 +16,8 @@ services:
     image: matomo
     restart: always
     volumes:
-      - /portainer/Files/AppData/Config/matomo/config:/var/www/html/config
-      - /portainer/Files/AppData/Config/matomo/logs:/var/www/html/logs
+      - /home/choppy/Files/AppData/Config/matomo/config:/var/www/html/config
+      - /home/choppy/Files/AppData/Config/matomo/logs:/var/www/html/logs
       - matomo:/var/www/html
     environment:
       - MATOMO_DATABASE_HOST=db

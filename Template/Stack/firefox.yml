@@ -13,7 +13,7 @@ services:
       - PGID=100 #change this to for your settings
       - TZ=Europe/Athens  #change this to for your location
     volumes:
-      - /portainer/Files/AppData/Config/firefox:/config
+      - /home/choppy/Files/AppData/Config/firefox:/config
     ports:
       - 3456:3000
     shm_size: "1gb"

@@ -41,11 +41,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Adguard/Workdir",
+          "bind": "/home/choppy/Files/AppData/Adguard/Workdir",
           "container": "/opt/adguardhome/work"
         },
         {
-          "bind": "/portainer/Files/AppData/Adguard/Conf",
+          "bind": "/home/choppy/Files/AppData/Adguard/Conf",
           "container": "/opt/adguardhome/conf"
         }
       ]
@@ -60,7 +60,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -85,23 +85,23 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Music",
+          "bind": "/home/choppy/Music",
           "container": "/music"
         },
         {
-          "bind": "/portainer/Files/AppData/Airsonic/Playlists",
+          "bind": "/home/choppy/Files/AppData/Airsonic/Playlists",
           "container": "/playlists"
         },
         {
-          "bind": "/portainer/Podcasts",
+          "bind": "/home/choppy/Podcasts",
           "container": "/podcasts"
         },
         {
-          "bind": "/portainer/Files/AppData/Airsonic/Media",
+          "bind": "/home/choppy/Files/AppData/Airsonic/Media",
           "container": "/media"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Airsonic/",
+          "bind": "/home/choppy/Files/AppData/Config/Airsonic/",
           "container": "/config"
         }
       ]
@@ -137,7 +137,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Authelia",
+          "bind": "/home/choppy/Files/AppData/Config/Authelia",
           "container": "/etc/authelia/"
         }
       ]
@@ -152,7 +152,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -171,15 +171,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Bazarr",
+          "bind": "/home/choppy/Files/AppData/Config/Bazarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/movies"
         }
       ]
@@ -194,7 +194,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -209,15 +209,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Beets",
+          "bind": "/home/choppy/Files/AppData/Config/Beets",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/home/choppy/Music",
           "container": "/music"
         }
       ]
@@ -236,7 +236,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Vaultwarden",
+          "bind": "/home/choppy/Files/AppData/Config/Vaultwarden",
           "container": "/config"
         }
       ]
@@ -251,7 +251,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -271,15 +271,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/home/choppy/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/Podcasts",
+          "bind": "/home/choppy/Files/Podcasts",
           "container": "/podcast"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Booksonic",
+          "bind": "/home/choppy/Files/AppData/Config/Booksonic",
           "container": "/config"
         }
       ]
@@ -294,7 +294,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -349,7 +349,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/trilium-data",
+          "bind": "/home/choppy/Files/AppData/Config/trilium-data",
           "container": "/home/node/trilium-data"
         }
       ]
@@ -364,7 +364,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -379,11 +379,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/home/choppy/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Cops",
+          "bind": "/home/choppy/Files/AppData/Config/Cops",
           "container": "/config"
         }
       ]
@@ -398,7 +398,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -413,11 +413,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/home/choppy/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/kavita",
+          "bind": "/home/choppy/Files/AppData/Config/kavita",
           "container": "/config"
         }
       ]
@@ -432,7 +432,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -448,11 +448,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/home/choppy/Books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Calibre-web",
+          "bind": "/home/choppy/Files/AppData/Config/Calibre-web",
           "container": "/config"
         }
       ]
@@ -467,7 +467,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -524,7 +524,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Chowdown",
+          "bind": "/home/choppy/Files/AppData/Config/Chowdown",
           "container": "/config"
         }
       ]
@@ -542,7 +542,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Tandoor",
+          "bind": "/home/choppy/Files/AppData/Config/Tandoor",
           "container": "/config"
         }
       ]
@@ -589,7 +589,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Code-Server",
+          "bind": "/home/choppy/Files/AppData/Config/Code-Server",
           "container": "/config"
         }
       ]
@@ -604,7 +604,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -619,7 +619,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Codiad",
+          "bind": "/home/choppy/Files/AppData/Config/Codiad",
           "container": "/config"
         }
       ]
@@ -634,7 +634,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -649,15 +649,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Couchpotato",
+          "bind": "/home/choppy/Files/AppData/Config/Couchpotato",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/movies"
         }
       ]
@@ -672,7 +672,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -686,11 +686,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Daapd",
+          "bind": "/home/choppy/Files/AppData/Config/Daapd",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/home/choppy/Music",
           "container": "/music"
         }
       ]
@@ -708,7 +708,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Dashmachine",
+          "bind": "/home/choppy/Files/AppData/Config/Dashmachine",
           "container": "/dashmachine/dashmachine/user_data"
         }
       ]
@@ -723,7 +723,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -739,11 +739,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Davos",
+          "bind": "/home/choppy/Files/AppData/Config/Davos",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -762,11 +762,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/DeeMix",
+          "bind": "/home/choppy/Files/AppData/Config/DeeMix",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -781,7 +781,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -800,11 +800,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Deluge",
+          "bind": "/home/choppy/Files/AppData/Config/Deluge",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -819,7 +819,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -834,7 +834,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Domoticz",
+          "bind": "/home/choppy/Files/AppData/Config/Domoticz",
           "container": "/config"
         }
       ]
@@ -859,7 +859,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -883,7 +883,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -898,7 +898,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Duplicati",
+          "bind": "/home/choppy/Files/AppData/Config/Duplicati",
           "container": "/config"
         },
         {
@@ -922,7 +922,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -941,15 +941,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Emby",
+          "bind": "/home/choppy/Files/AppData/Config/Emby",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/data/movies"
         }
       ]
@@ -968,7 +968,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/EmbyStat",
+          "bind": "/home/choppy/Files/AppData/Config/EmbyStat",
           "container": "/config"
         }
       ]
@@ -987,11 +987,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/FileBrowser",
+          "bind": "/home/choppy/Files/AppData/Config/FileBrowser",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Config",
+          "bind": "/home/choppy/Files/AppData/Config",
           "container": "/myfiles"
         }
       ]
@@ -1006,7 +1006,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1021,7 +1021,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/freshrss",
+          "bind": "/home/choppy/Files/AppData/Config/freshrss",
           "container": "/config"
         }
       ]
@@ -1036,7 +1036,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1050,15 +1050,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Gazee",
+          "bind": "/home/choppy/Files/AppData/Config/Gazee",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/home/choppy/Comics",
           "container": "/comics"
         },
         {
-          "bind": "/portainer/Files/AppData/Gazee",
+          "bind": "/home/choppy/Files/AppData/Gazee",
           "container": "/mylar"
         }
       ]
@@ -1077,7 +1077,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Guacamole",
+          "bind": "/home/choppy/Files/AppData/Config/Guacamole",
           "container": "/config"
         }
       ]
@@ -1092,7 +1092,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -1111,7 +1111,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Grocy",
+          "bind": "/home/choppy/Files/AppData/Config/Grocy",
           "container": "/config"
         }
       ]
@@ -1126,7 +1126,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1141,7 +1141,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/HTPCmanager",
+          "bind": "/home/choppy/Files/AppData/Config/HTPCmanager",
           "container": "/config"
         }
       ]
@@ -1156,7 +1156,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1171,15 +1171,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Headphones",
+          "bind": "/home/choppy/Files/AppData/Config/Headphones",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/Downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/home/choppy/Music",
           "container": "/music"
         }
       ]
@@ -1194,7 +1194,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1209,7 +1209,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Heimdall",
+          "bind": "/home/choppy/Files/AppData/Config/Heimdall",
           "container": "/config"
         }
       ]
@@ -1228,11 +1228,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Homer/assets",
+          "bind": "/home/choppy/Files/AppData/Config/Homer/assets",
           "container": "/www/assets"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Homer",
+          "bind": "/home/choppy/Files/AppData/Config/Homer",
           "container": "/www/config.yml"
         }
       ]
@@ -1395,7 +1395,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/flame-dashboard",
+          "bind": "/home/choppy/Files/AppData/Config/flame-dashboard",
           "container": "/app/data"
         }
       ]
@@ -1413,7 +1413,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/huginn",
+          "bind": "/home/choppy/Files/AppData/Config/huginn",
           "container": "/var/lib/mysql"
         }
       ]
@@ -1443,7 +1443,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/eufy-security-ws",
+          "bind": "/home/choppy/Files/AppData/Config/eufy-security-ws",
           "container": "/data"
         }
       ]
@@ -1499,7 +1499,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1514,11 +1514,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Jackett",
+          "bind": "/home/choppy/Files/AppData/Config/Jackett",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -1533,7 +1533,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -1552,15 +1552,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Jellyfin",
+          "bind": "/home/choppy/Files/AppData/Config/Jellyfin",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/data/movies"
         }
       ]
@@ -1575,7 +1575,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1590,7 +1590,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Kodi",
+          "bind": "/home/choppy/Files/AppData/Config/Kodi",
           "container": "/config"
         }
       ]
@@ -1605,7 +1605,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1665,7 +1665,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -1725,7 +1725,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/LetsEncrypt",
+          "bind": "/home/choppy/Files/AppData/Config/LetsEncrypt",
           "container": "/config"
         }
       ]
@@ -1743,7 +1743,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/LibreSpeed",
+          "bind": "/home/choppy/Files/AppData/Config/LibreSpeed",
           "container": "/config"
         }
       ]
@@ -1758,7 +1758,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1773,15 +1773,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Lidarr",
+          "bind": "/home/choppy/Files/AppData/Config/Lidarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/home/choppy/Music",
           "container": "/music"
         }
       ]
@@ -1796,7 +1796,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1811,11 +1811,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Lychee",
+          "bind": "/home/choppy/Files/AppData/Config/Lychee",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/home/choppy/Pictures",
           "container": "/pictures"
         }
       ]
@@ -1830,7 +1830,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -1850,7 +1850,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mariadb",
+          "bind": "/home/choppy/Files/AppData/Config/Mariadb",
           "container": "/config"
         }
       ]
@@ -1865,7 +1865,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1894,7 +1894,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1909,15 +1909,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Medusa",
+          "bind": "/home/choppy/Files/AppData/Config/Medusa",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -1932,7 +1932,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1962,7 +1962,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -1977,7 +1977,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/pi.alert",
+          "bind": "/home/choppy/Files/AppData/Config/pi.alert",
           "container": "/config"
         }
       ]
@@ -1992,7 +1992,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2019,11 +2019,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mstream",
+          "bind": "/home/choppy/Files/AppData/Config/Mstream",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/music"
         }
       ]
@@ -2038,7 +2038,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -2061,15 +2061,15 @@
           "container": "/etc/localtime"
         },
         {
-          "bind": "/portainer/Files/Config/Murmur",
+          "bind": "/home/choppy/Files/Config/Murmur",
           "container": "/opt/murmur/config"
         },
         {
-          "bind": "/portainer/Files/Murmur/data",
+          "bind": "/home/choppy/Files/Murmur/data",
           "container": "/opt/murmur/data"
         },
         {
-          "bind": "/portainer/Files/Murmur/log",
+          "bind": "/home/choppy/Files/Murmur/log",
           "container": "/opt/murmur/log"
         }
       ]
@@ -2089,7 +2089,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2104,11 +2104,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/MusicBrainz",
+          "bind": "/home/choppy/Files/AppData/Config/MusicBrainz",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/MusicBrainz",
+          "bind": "/home/choppy/Files/AppData/MusicBrainz",
           "container": "/data"
         }
       ]
@@ -2123,7 +2123,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2138,7 +2138,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Muximux",
+          "bind": "/home/choppy/Files/AppData/Config/Muximux",
           "container": "/config"
         }
       ]
@@ -2153,7 +2153,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2168,15 +2168,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Mylar",
+          "bind": "/home/choppy/Files/AppData/Config/Mylar",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/home/choppy/Comics",
           "container": "/comics"
         }
       ]
@@ -2191,7 +2191,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2206,11 +2206,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nzbget",
+          "bind": "/home/choppy/Files/AppData/Config/Nzbget",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2225,7 +2225,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2240,11 +2240,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nzbhydra2",
+          "bind": "/home/choppy/Files/AppData/Config/Nzbhydra2",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2259,7 +2259,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -2301,7 +2301,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2316,7 +2316,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nginx",
+          "bind": "/home/choppy/Files/AppData/Config/Nginx",
           "container": "/config"
         }
       ]
@@ -2347,7 +2347,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2362,7 +2362,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/OScam",
+          "bind": "/home/choppy/Files/AppData/Config/OScam",
           "container": "/config"
         }
       ]
@@ -2377,7 +2377,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2392,7 +2392,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Ombi",
+          "bind": "/home/choppy/Files/AppData/Config/Ombi",
           "container": "/config"
         }
       ]
@@ -2412,7 +2412,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2427,7 +2427,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
+          "bind": "/home/choppy/Files/AppData/Config/OpenVPN-AS",
           "container": "/config"
         }
       ]
@@ -2442,7 +2442,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2457,7 +2457,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Organizr",
+          "bind": "/home/choppy/Files/AppData/Config/Organizr",
           "container": "/config"
         }
       ]
@@ -2472,7 +2472,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2487,7 +2487,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Overseerr",
+          "bind": "/home/choppy/Files/AppData/Config/Overseerr",
           "container": "/config"
         }
       ]
@@ -2502,7 +2502,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -2585,7 +2585,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2600,15 +2600,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/home/choppy/Pictures",
           "container": "/Pictures"
         },
         {
-          "bind": "/portainer/Files/AppData/Photoshow/Thumbs",
+          "bind": "/home/choppy/Files/AppData/Photoshow/Thumbs",
           "container": "/Thumbs"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/PhotoShow",
+          "bind": "/home/choppy/Files/AppData/Config/PhotoShow",
           "container": "/config"
         }
       ]
@@ -2633,11 +2633,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PiHole",
+          "bind": "/home/choppy/Files/AppData/Config/PiHole",
           "container": "/etc/pihole"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+          "bind": "/home/choppy/Files/AppData/Config/PiHole/DNS",
           "container": "/etc/dnsmasq.d"
         }
       ]
@@ -2652,7 +2652,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2667,7 +2667,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PiWigo",
+          "bind": "/home/choppy/Files/AppData/Config/PiWigo",
           "container": "/config"
         }
       ]
@@ -2682,7 +2682,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -2702,15 +2702,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Plex",
+          "bind": "/home/choppy/Files/AppData/Config/Plex",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/movies"
         }
       ]
@@ -2725,7 +2725,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -2745,7 +2745,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/PlexRequests",
+          "bind": "/home/choppy/Files/AppData/Config/PlexRequests",
           "container": "/config"
         }
       ]
@@ -2760,7 +2760,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2775,11 +2775,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/ProjectSend",
+          "bind": "/home/choppy/Files/AppData/ProjectSend",
           "container": "/data"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/ProjectSend",
+          "bind": "/home/choppy/Files/AppData/Config/ProjectSend",
           "container": "/config"
         }
       ]
@@ -2798,7 +2798,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/ProtonMail-Bridge",
+          "bind": "/home/choppy/Files/AppData/ProtonMail-Bridge",
           "container": "/root"
         }
       ]
@@ -2813,7 +2813,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2828,7 +2828,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Prowlarr",
+          "bind": "/home/choppy/Files/AppData/Config/Prowlarr",
           "container": "/config"
         }
       ]
@@ -2843,7 +2843,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2858,11 +2858,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Pydio",
+          "bind": "/home/choppy/Files/AppData/Config/Pydio",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Pydio",
+          "bind": "/home/choppy/Files/AppData/Pydio",
           "container": "/data"
         }
       ]
@@ -2877,7 +2877,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2892,11 +2892,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/qBittorrent",
+          "bind": "/home/choppy/Files/AppData/Config/qBittorrent",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -2911,7 +2911,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2926,7 +2926,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Quassel-core",
+          "bind": "/home/choppy/Files/AppData/Config/Quassel-core",
           "container": "/config"
         }
       ]
@@ -2941,7 +2941,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -2956,15 +2956,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Radarr",
+          "bind": "/home/choppy/Files/AppData/Config/Radarr",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/home/choppy/Movies",
           "container": "/movies"
         }
       ]
@@ -2982,7 +2982,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ReactiveResume",
+          "bind": "/home/choppy/Files/AppData/Config/ReactiveResume",
           "container": "/usr/src/app"
         }
       ]
@@ -2997,7 +2997,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3011,14 +3011,14 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+          "bind": "/home/choppy/Files/AppData/Config/Resilio-Sync",
           "container": "/config"
         },
         {
           "container": "/sync"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3033,7 +3033,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3048,11 +3048,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ruTorrent",
+          "bind": "/home/choppy/Files/AppData/Config/ruTorrent",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3067,7 +3067,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3082,15 +3082,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Sabnzbd",
+          "bind": "/home/choppy/Files/AppData/Config/Sabnzbd",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Downloads/incomplete",
+          "bind": "/home/choppy/Downloads/incomplete",
           "container": "/incomplete-downloads"
         }
       ]
@@ -3108,7 +3108,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Shiori",
+          "bind": "/home/choppy/Files/AppData/Config/Shiori",
           "container": "/srv/shiori"
         }
       ]
@@ -3123,7 +3123,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3138,15 +3138,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/SickChill",
+          "bind": "/home/choppy/Files/AppData/Config/SickChill",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         }
       ]
@@ -3161,7 +3161,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3176,15 +3176,15 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/SickGear",
+          "bind": "/home/choppy/Files/AppData/Config/SickGear",
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3199,7 +3199,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3214,11 +3214,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Smokeping",
+          "bind": "/home/choppy/Files/AppData/Config/Smokeping",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Smokeping",
+          "bind": "/home/choppy/Files/AppData/Smokeping",
           "container": "/data"
         }
       ]
@@ -3237,7 +3237,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Snibox",
+          "bind": "/home/choppy/Files/AppData/Config/Snibox",
           "container": "/app/db/database"
         }
       ]
@@ -3252,7 +3252,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3267,7 +3267,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Sonarr",
+          "bind": "/home/choppy/Files/AppData/Config/Sonarr",
           "container": "/config"
         },
         {
@@ -3275,11 +3275,11 @@
           "container": "/dev/rtc"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/home/choppy/TV",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/downloads"
         }
       ]
@@ -3294,7 +3294,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3309,7 +3309,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Syncthing",
+          "bind": "/home/choppy/Files/AppData/Config/Syncthing",
           "container": "/config"
         },
         {
@@ -3327,7 +3327,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3343,11 +3343,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Logs",
+          "bind": "/home/choppy/Logs",
           "container": "/logs"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Tautulli",
+          "bind": "/home/choppy/Files/AppData/Config/Tautulli",
           "container": "/config"
         }
       ]
@@ -3362,7 +3362,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3377,7 +3377,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TheLounge",
+          "bind": "/home/choppy/Files/AppData/Config/TheLounge",
           "container": "/config"
         }
       ]
@@ -3395,7 +3395,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+          "bind": "/home/choppy/Files/AppData/Config/TiddlyWiki",
           "container": "/var/lib/tiddlywiki"
         }
       ]
@@ -3410,7 +3410,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3425,7 +3425,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/tt-rss",
+          "bind": "/home/choppy/Files/AppData/Config/tt-rss",
           "container": "/config"
         }
       ]
@@ -3440,7 +3440,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3455,11 +3455,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Transmission",
+          "bind": "/home/choppy/Files/AppData/Config/Transmission",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/Downloads",
+          "bind": "/home/choppy/Files/Downloads",
           "container": "/downloads"
         },
         {
@@ -3477,7 +3477,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         },
@@ -3514,7 +3514,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/home/choppy/Downloads",
           "container": "/data"
         },
         {
@@ -3533,7 +3533,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3548,7 +3548,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/TVHeadend",
+          "bind": "/home/choppy/Files/AppData/Config/TVHeadend",
           "container": "/config"
         },
         {
@@ -3571,7 +3571,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3606,7 +3606,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3630,7 +3630,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Unifi",
+          "bind": "/home/choppy/Files/AppData/Config/Unifi",
           "container": "/config"
         }
       ]
@@ -3663,7 +3663,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -3678,11 +3678,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/WebGrabPlus",
+          "bind": "/home/choppy/Files/AppData/Config/WebGrabPlus",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/WebGrabPlus",
+          "bind": "/home/choppy/Files/AppData/WebGrabPlus",
           "container": "/data"
         }
       ]
@@ -3700,7 +3700,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Whoogle",
+          "bind": "/home/choppy/Files/AppData/Config/Whoogle",
           "container": "/config"
         }
       ]
@@ -3718,11 +3718,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Wikijs",
+          "bind": "/home/choppy/Files/AppData/Config/Wikijs",
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/Wikijs/data",
+          "bind": "/home/choppy/Files/AppData/Config/Wikijs/data",
           "container": "/data"
         }
       ]
@@ -3762,7 +3762,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/UptimeKuma",
+          "bind": "/home/choppy/Files/AppData/Config/UptimeKuma",
           "container": "/app/data"
         }
       ]
@@ -3798,7 +3798,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/monica",
+          "bind": "/home/choppy/Files/AppData/Config/monica",
           "container": "/var/www/html/storage"
         }
       ]
@@ -3914,7 +3914,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Nodered",
+          "bind": "/home/choppy/Files/AppData/Config/Nodered",
           "container": "/data"
         }
       ]
@@ -3931,7 +3931,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/changedetection",
+          "bind": "/home/choppy/Files/AppData/Config/changedetection",
           "container": "/datastore"
         }
       ]
@@ -3949,11 +3949,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/revealjs/docs/slides",
+          "bind": "/home/choppy/Files/AppData/Config/revealjs/docs/slides",
           "container": "/reveal/docs/slides"
         },
         {
-          "bind": "/portainer/Files/AppData/Config/revealjs/scripts/test",
+          "bind": "/home/choppy/Files/AppData/Config/revealjs/scripts/test",
           "container": "/resources"
         }
       ]
@@ -3971,7 +3971,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/statping",
+          "bind": "/home/choppy/Files/AppData/Config/statping",
           "container": "/app"
         }
       ]
@@ -3989,7 +3989,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/nuts",
+          "bind": "/home/choppy/Files/AppData/Config/nuts",
           "container": "/app"
         }
       ]
@@ -4049,7 +4049,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/WebTop",
+          "bind": "/home/choppy/Files/AppData/Config/WebTop",
           "container": "/config"
         }
       ]
@@ -4252,23 +4252,23 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/YTDLM",
+          "bind": "/home/choppy/Files/AppData/Config/YTDLM",
           "container": "/app/appdata"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Video",
+          "bind": "/home/choppy/Files/AppData/Youtube/Video",
           "container": "/app/video"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Subscriptions",
+          "bind": "/home/choppy/Files/AppData/Youtube/Subscriptions",
           "container": "/app/subscriptions"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Users",
+          "bind": "/home/choppy/Files/AppData/Youtube/Users",
           "container": "/app/users"
         },
         {
-          "bind": "/portainer/Files/AppData/Youtube/Audio",
+          "bind": "/home/choppy/Files/AppData/Youtube/Audio",
           "container": "/app/audio"
         }
       ]
@@ -4283,7 +4283,7 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
@@ -4298,7 +4298,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/ZNC",
+          "bind": "/home/choppy/Files/AppData/Config/ZNC",
           "container": "/config"
         }
       ]

@@ -18,8 +18,8 @@ services:
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
-      - /portainer/Files/AppData/teleport/one/data/one:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/one:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/one/data/one:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/one:/root/go/src/github.com/gravitational/teleport
       - certs:/mnt/shared/certs
     networks:
       teleport:
@@ -40,8 +40,8 @@ services:
     #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
-      - /portainer/Files/AppData/teleport/one-node/data/one-node:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/one-node:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/one-node/data/one-node:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/one-node:/root/go/src/github.com/gravitational/teleport
     networks:
       teleport:
         ipv4_address: 172.10.1.20
@@ -59,8 +59,8 @@ services:
     #env_file: ./teleportenv.file
     mem_limit: 300m
     volumes:
-      - /portainer/Files/AppData/teleport/one-sshd/pam.d/ssh:/etc/pam.d/ssh
-      - /portainer/Files/AppData/Config/teleport/one-sshd:/etc/ssh/sshd_config
+      - /home/choppy/Files/AppData/teleport/one-sshd/pam.d/ssh:/etc/pam.d/ssh
+      - /home/choppy/Files/AppData/Config/teleport/one-sshd:/etc/ssh/sshd_config
       - certs:/mnt/shared/certs
     networks:
       teleport:
@@ -82,8 +82,8 @@ services:
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
-      - /portainer/Files/AppData/teleport/one-proxy:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/one-proxy:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/one-proxy:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/one-proxy:/root/go/src/github.com/gravitational/teleport
     networks:
       teleport:
         ipv4_address: 172.10.1.10
@@ -103,8 +103,8 @@ services:
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
-      - /portainer/Files/AppData/teleport/two/auth:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/two:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/two/auth:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/two:/root/go/src/github.com/gravitational/teleport
     networks:
       teleport:
         ipv4_address: 172.10.1.2
@@ -125,8 +125,8 @@ services:
       - "5080:5080"
       - "5023:5023"
     volumes:
-      - /portainer/Files/AppData/teleport/two-proxy/data:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/two-proxy:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/two-proxy/data:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/two-proxy:/root/go/src/github.com/gravitational/teleport
     networks:
       teleport:
         ipv4_address: 172.10.1.3
@@ -144,8 +144,8 @@ services:
       CONTAINERHOME: /root/go/src/github.com/gravitational/teleport
     #env_file: ./teleportenv.file
     volumes:
-      - /portainer/Files/AppData/teleport/two-node/data:/var/lib/teleport
-      - /portainer/Files/AppData/Config/teleport/two-node:/root/go/src/github.com/gravitational/teleport
+      - /home/choppy/Files/AppData/teleport/two-node/data:/var/lib/teleport
+      - /home/choppy/Files/AppData/Config/teleport/two-node:/root/go/src/github.com/gravitational/teleport
     networks:
       teleport:
         ipv4_address: 172.10.1.4
