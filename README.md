@@ -12,7 +12,7 @@ This is a template focused on helping people spin up selfhosted services using P
 
 1. Login to your Portainer setup go to settings
 2. Go to:  Application settings > App Templates
-3. Add the url: `https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json` then go to app templates and hit refresh at the top.
+3. Add the url: `https://raw.githubusercontent.com/bmelim/Portainer_Templates/master/Template/template.json` then go to app templates and hit refresh at the top.
 
 ### Information
 All templates are already configured to bind mount to various places on your drive. The following folders are all created in **/portainer/**
